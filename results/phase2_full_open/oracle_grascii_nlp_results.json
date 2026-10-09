@@ -1,0 +1,481 @@
+{
+  "total_test_samples": 1544,
+  "dictionary_covered_samples": 1544,
+  "unknown_samples": 0,
+  "overall_accuracy": 0.9365284974093264,
+  "ambiguous_samples": 165,
+  "ambiguous_accuracy": 0.40606060606060607,
+  "examples_wrong": [
+    {
+      "true_word": "acetic",
+      "grascii": "AS^A",
+      "predicted": "asiatic",
+      "candidates": [
+        "acetic",
+        "ascetic",
+        "asiatic"
+      ]
+    },
+    {
+      "true_word": "ambition",
+      "grascii": "AMB",
+      "predicted": "ambitious",
+      "candidates": [
+        "ambition",
+        "ambitious"
+      ]
+    },
+    {
+      "true_word": "ascent",
+      "grascii": "ASENT",
+      "predicted": "assent",
+      "candidates": [
+        "ascent",
+        "assent"
+      ]
+    },
+    {
+      "true_word": "ax",
+      "grascii": "AKS",
+      "predicted": "accident",
+      "candidates": [
+        "accident",
+        "ax"
+      ]
+    },
+    {
+      "true_word": "bear",
+      "grascii": "BAR",
+      "predicted": "bar",
+      "candidates": [
+        "bar",
+        "bare",
+        "bear"
+      ]
+    },
+    {
+      "true_word": "belt",
+      "grascii": "BLT",
+      "predicted": "built",
+      "candidates": [
+        "belt",
+        "built"
+      ]
+    },
+    {
+      "true_word": "bliss",
+      "grascii": "BLES",
+      "predicted": "bless",
+      "candidates": [
+        "bless",
+        "bliss"
+      ]
+    },
+    {
+      "true_word": "blow",
+      "grascii": "BLO",
+      "predicted": "below",
+      "candidates": [
+        "below",
+        "blow"
+      ]
+    },
+    {
+      "true_word": "brighten",
+      "grascii": "BRITN",
+      "predicted": "brightness",
+      "candidates": [
+        "brighten",
+        "brightness"
+      ]
+    },
+    {
+      "true_word": "buoy",
+      "grascii": "BOE",
+      "predicted": "boy",
+      "candidates": [
+        "boy",
+        "buoy"
+      ]
+    },
+    {
+      "true_word": "cash",
+      "grascii": "KASH",
+      "predicted": "occasion",
+      "candidates": [
+        "cash",
+        "occasion"
+      ]
+    },
+    {
+      "true_word": "certify",
+      "grascii": "SETF",
+      "predicted": "certificate",
+      "candidates": [
+        "certificate",
+        "certify"
+      ]
+    },
+    {
+      "true_word": "cession",
+      "grascii": "SESH",
+      "predicted": "session",
+      "candidates": [
+        "session",
+        "cession"
+      ]
+    },
+    {
+      "true_word": "chirology",
+      "grascii": "KIR^O(",
+      "predicted": "chirological",
+      "candidates": [
+        "chirological",
+        "chirology"
+      ]
+    },
+    {
+      "true_word": "cite",
+      "grascii": "SIT",
+      "predicted": "sight",
+      "candidates": [
+        "sight",
+        "cite"
+      ]
+    },
+    {
+      "true_word": "cod",
+      "grascii": "KOD",
+      "predicted": "cord",
+      "candidates": [
+        "chord",
+        "cod",
+        "cord"
+      ]
+    },
+    {
+      "true_word": "complain",
+      "grascii": "KP",
+      "predicted": "keep",
+      "candidates": [
+        "company",
+        "complain",
+        "complaint",
+        "complete",
+        "keep"
+      ]
+    },
+    {
+      "true_word": "confess",
+      "grascii": "KFES",
+      "predicted": "confession",
+      "candidates": [
+        "confess",
+        "confession"
+      ]
+    },
+    {
+      "true_word": "copyholder",
+      "grascii": "KPE^R",
+      "predicted": "copier",
+      "candidates": [
+        "copier",
+        "copyholder"
+      ]
+    },
+    {
+      "true_word": "correspond",
+      "grascii": "KRES",
+      "predicted": "christmas",
+      "candidates": [
+        "christmas",
+        "correspond",
+        "correspondence",
+        "crease",
+        "cress"
+      ]
+    },
+    {
+      "true_word": "coup",
+      "grascii": "KU",
+      "predicted": "quality",
+      "candidates": [
+        "quality",
+        "coup"
+      ]
+    },
+    {
+      "true_word": "decent",
+      "grascii": "DSENT",
+      "predicted": "descent",
+      "candidates": [
+        "decent",
+        "descent",
+        "dissent"
+      ]
+    },
+    {
+      "true_word": "declaim",
+      "grascii": "DEM",
+      "predicted": "dim",
+      "candidates": [
+        "declaim",
+        "deem",
+        "dim"
+      ]
+    },
+    {
+      "true_word": "difference",
+      "grascii": "DF",
+      "predicted": "different",
+      "candidates": [
+        "differ",
+        "difference",
+        "different"
+      ]
+    },
+    {
+      "true_word": "difficulty",
+      "grascii": "DFK",
+      "predicted": "difficult",
+      "candidates": [
+        "difficult",
+        "difficulty"
+      ]
+    },
+    {
+      "true_word": "din",
+      "grascii": "DEN",
+      "predicted": "dean",
+      "candidates": [
+        "dean",
+        "decline",
+        "den",
+        "din"
+      ]
+    },
+    {
+      "true_word": "dissension",
+      "grascii": "DSENSH",
+      "predicted": "descension",
+      "candidates": [
+        "descension",
+        "dissension"
+      ]
+    },
+    {
+      "true_word": "duel",
+      "grascii": "DUL",
+      "predicted": "dull",
+      "candidates": [
+        "dual",
+        "duel",
+        "dull"
+      ]
+    },
+    {
+      "true_word": "eastern",
+      "grascii": "ESTN",
+      "predicted": "extent",
+      "candidates": [
+        "eastern",
+        "extend",
+        "extent"
+      ]
+    },
+    {
+      "true_word": "expansible",
+      "grascii": "ESPANSV",
+      "predicted": "expansive",
+      "candidates": [
+        "expansible",
+        "expansive"
+      ]
+    }
+  ],
+  "examples_ambiguous": [
+    {
+      "true_word": "acetic",
+      "grascii": "AS^A",
+      "predicted": "asiatic",
+      "candidates": [
+        "acetic",
+        "ascetic",
+        "asiatic"
+      ]
+    },
+    {
+      "true_word": "adolescent",
+      "grascii": "ADOLES",
+      "predicted": "adolescent",
+      "candidates": [
+        "adolescent",
+        "adolescence"
+      ]
+    },
+    {
+      "true_word": "alike",
+      "grascii": "ALA",
+      "predicted": "alike",
+      "candidates": [
+        "alike",
+        "allay"
+      ]
+    },
+    {
+      "true_word": "ambition",
+      "grascii": "AMB",
+      "predicted": "ambitious",
+      "candidates": [
+        "ambition",
+        "ambitious"
+      ]
+    },
+    {
+      "true_word": "appear",
+      "grascii": "APR",
+      "predicted": "appear",
+      "candidates": [
+        "appear",
+        "april"
+      ]
+    },
+    {
+      "true_word": "ascent",
+      "grascii": "ASENT",
+      "predicted": "assent",
+      "candidates": [
+        "ascent",
+        "assent"
+      ]
+    },
+    {
+      "true_word": "asiatic",
+      "grascii": "AS^A",
+      "predicted": "asiatic",
+      "candidates": [
+        "acetic",
+        "ascetic",
+        "asiatic"
+      ]
+    },
+    {
+      "true_word": "ax",
+      "grascii": "AKS",
+      "predicted": "accident",
+      "candidates": [
+        "accident",
+        "ax"
+      ]
+    },
+    {
+      "true_word": "bear",
+      "grascii": "BAR",
+      "predicted": "bar",
+      "candidates": [
+        "bar",
+        "bare",
+        "bear"
+      ]
+    },
+    {
+      "true_word": "belt",
+      "grascii": "BLT",
+      "predicted": "built",
+      "candidates": [
+        "belt",
+        "built"
+      ]
+    },
+    {
+      "true_word": "bit",
+      "grascii": "BET",
+      "predicted": "bit",
+      "candidates": [
+        "bet",
+        "bit"
+      ]
+    },
+    {
+      "true_word": "bliss",
+      "grascii": "BLES",
+      "predicted": "bless",
+      "candidates": [
+        "bless",
+        "bliss"
+      ]
+    },
+    {
+      "true_word": "bloat",
+      "grascii": "BLOT",
+      "predicted": "bloat",
+      "candidates": [
+        "bloat",
+        "blot"
+      ]
+    },
+    {
+      "true_word": "blow",
+      "grascii": "BLO",
+      "predicted": "below",
+      "candidates": [
+        "below",
+        "blow"
+      ]
+    },
+    {
+      "true_word": "brighten",
+      "grascii": "BRITN",
+      "predicted": "brightness",
+      "candidates": [
+        "brighten",
+        "brightness"
+      ]
+    },
+    {
+      "true_word": "buoy",
+      "grascii": "BOE",
+      "predicted": "boy",
+      "candidates": [
+        "boy",
+        "buoy"
+      ]
+    },
+    {
+      "true_word": "care",
+      "grascii": "KA",
+      "predicted": "care",
+      "candidates": [
+        "quay",
+        "care"
+      ]
+    },
+    {
+      "true_word": "cash",
+      "grascii": "KASH",
+      "predicted": "occasion",
+      "candidates": [
+        "cash",
+        "occasion"
+      ]
+    },
+    {
+      "true_word": "certify",
+      "grascii": "SETF",
+      "predicted": "certificate",
+      "candidates": [
+        "certificate",
+        "certify"
+      ]
+    },
+    {
+      "true_word": "cession",
+      "grascii": "SESH",
+      "predicted": "session",
+      "candidates": [
+        "session",
+        "cession"
+      ]
+    }
+  ]
+}

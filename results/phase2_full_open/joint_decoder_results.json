@@ -1,0 +1,32 @@
+{
+  "0.8_0.2": {
+    "ctc_weight": 0.8,
+    "ngram_weight": 0.2,
+    "word_accuracy": 0.5122549019607843,
+    "run_accuracy": 0.265
+  },
+  "0.7_0.3": {
+    "ctc_weight": 0.7,
+    "ngram_weight": 0.3,
+    "word_accuracy": 0.5122549019607843,
+    "run_accuracy": 0.265
+  },
+  "0.6_0.4": {
+    "ctc_weight": 0.6,
+    "ngram_weight": 0.4,
+    "word_accuracy": 0.5147058823529411,
+    "run_accuracy": 0.27
+  },
+  "0.5_0.5": {
+    "ctc_weight": 0.5,
+    "ngram_weight": 0.5,
+    "word_accuracy": 0.5147058823529411,
+    "run_accuracy": 0.27
+  },
+  "0.4_0.6": {
+    "ctc_weight": 0.4,
+    "ngram_weight": 0.6,
+    "word_accuracy": 0.5147058823529411,
+    "run_accuracy": 0.27
+  }
+}

@@ -1,0 +1,153 @@
+Version 3 - Phase 2 Full Open-Split Results
+===========================================
+
+Dataset:
+- Total usable images: 15,816
+- Train: 12,657
+- Validation: 1,615
+- Test: 1,544
+
+Architecture:
+- CNN
+- 2-layer BiGRU
+- CTC
+- Target: Grascii
+
+Training:
+- Epochs: 30
+- Batch size: 16
+- Learning rate: 0.001
+- Best validation CER: 0.1876
+- Best validation exact: 45.4%
+- Checkpoint: outputs\phase2_full_open\recognizer.pt
+
+Held-out Test Results:
+----------------------
+Greedy decoding:
+- Test CER: 0.1850
+- Exact accuracy: 48.32%
+- Exact matches: 746 / 1544
+
+Beam-search decoding:
+- Beam size: 10
+- Test CER: 0.1822
+- Exact accuracy: 48.83%
+- Exact matches: 754 / 1544
+
+Checkpoint backup:
+- backups\phase2_full_open\recognizer.pt
+Version 3 - Lexicon-Constrained Decoding
+
+Test samples: 1544
+Valid Grascii lexicon sequences: 14917
+
+Greedy:
+CER = 0.1850
+Exact = 48.32%
+746 / 1544
+
+Beam:
+CER = 0.1822
+Exact = 48.83%
+754 / 1544
+
+Lexicon-constrained beam:
+CER = 0.1283
+Exact = 72.80%
+1124 / 1544
+
+Improvement over beam:
+CER reduction = 0.0539
+Exact improvement = 23.97 percentage points
+Exact matches gained = 370
+Context-aware NLP:
+- Corpus sentences: 33,936
+- Evaluated words: 2,104
+- Overall accuracy: 99.14%
+- Ambiguous-word accuracy: 97.46%
+- Ambiguous words evaluated: 708
+- Note: evaluated using correct Grascii derived from corpus words; not an end-to-end image test.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.0000 (0.00%)
+- English word accuracy: 0.0000 (0.00%)
+- Sentence/run accuracy: 0.0000 (0.00%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included in this evaluation.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - Joint Grascii + English Decoding
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Recognition beam: 200
+- Recognition top-k: 200
+- Joint beam: 20
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.1800 (18.00%)
+- Sentence/run accuracy: 0.0000 (0.00%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 33
+- Words evaluated: 100
+- Grascii exact accuracy: 0.5200 (52.00%)
+- English word accuracy: 0.4900 (49.00%)
+- Sentence/run accuracy: 0.1212 (12.12%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.
+
+
+Version 3 - End-to-End Gregg to English
+- Sentence/phrase runs: 200
+- Words evaluated: 408
+- Grascii exact accuracy: 0.5245 (52.45%)
+- English word accuracy: 0.5123 (51.23%)
+- Sentence/run accuracy: 0.2650 (26.50%)
+- Note: synthetic sentence reconstruction using held-out test word images; document segmentation is not included.

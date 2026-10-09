@@ -1,0 +1,11 @@
+torch>=2.1
+numpy
+pandas
+opencv-python
+pillow
+rapidfuzz
+transformers>=4.38
+pymupdf
+nltk
+# optional: only needed to re-import the Grascii dictionary yourself (a copy is already bundled)
+# grascii

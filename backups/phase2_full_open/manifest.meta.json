@@ -1,0 +1,9 @@
+{
+  "split_mode": "open",
+  "group_by": "english",
+  "seed": 0,
+  "n_rows": 15816,
+  "n_without_grascii": 0,
+  "lexicon_scope": "manifest",
+  "grascii_dictionary": "D:\\gregg_shorthand_nlp_v2\\data\\grascii\\dictionary_preanniversary.tsv"
+}

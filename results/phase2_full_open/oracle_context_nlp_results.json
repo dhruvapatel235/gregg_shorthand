@@ -1,0 +1,123 @@
+{
+  "runs": 200,
+  "words": 408,
+  "word_accuracy": 0.9779411764705882,
+  "run_accuracy": 0.96,
+  "ambiguous_words": 165,
+  "ambiguous_accuracy": 0.9454545454545454,
+  "examples": [
+    {
+      "true": "cash",
+      "predicted": "occasion",
+      "candidates": [
+        "cash",
+        "occasion"
+      ],
+      "run": [
+        "cash",
+        "another"
+      ]
+    },
+    {
+      "true": "whose",
+      "predicted": "house",
+      "candidates": [
+        "house",
+        "husband",
+        "whose"
+      ],
+      "run": [
+        "whose",
+        "support"
+      ]
+    },
+    {
+      "true": "friendly",
+      "predicted": "friend",
+      "candidates": [
+        "friend",
+        "friendly"
+      ],
+      "run": [
+        "friendly",
+        "state",
+        "sometimes",
+        "only"
+      ]
+    },
+    {
+      "true": "tale",
+      "predicted": "tail",
+      "candidates": [
+        "tail",
+        "tale"
+      ],
+      "run": [
+        "incredible",
+        "tale"
+      ]
+    },
+    {
+      "true": "whose",
+      "predicted": "house",
+      "candidates": [
+        "house",
+        "husband",
+        "whose"
+      ],
+      "run": [
+        "whose",
+        "hand"
+      ]
+    },
+    {
+      "true": "whose",
+      "predicted": "house",
+      "candidates": [
+        "house",
+        "husband",
+        "whose"
+      ],
+      "run": [
+        "volcano",
+        "whose"
+      ]
+    },
+    {
+      "true": "cash",
+      "predicted": "occasion",
+      "candidates": [
+        "cash",
+        "occasion"
+      ],
+      "run": [
+        "cash",
+        "every"
+      ]
+    },
+    {
+      "true": "sauce",
+      "predicted": "source",
+      "candidates": [
+        "sauce",
+        "source"
+      ],
+      "run": [
+        "sauce",
+        "meat"
+      ]
+    },
+    {
+      "true": "meat",
+      "predicted": "meet",
+      "candidates": [
+        "meat",
+        "meet"
+      ],
+      "run": [
+        "sauce",
+        "meat"
+      ]
+    }
+  ]
+}

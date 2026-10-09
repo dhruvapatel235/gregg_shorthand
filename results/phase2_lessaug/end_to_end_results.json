@@ -1,0 +1,573 @@
+{
+  "runs": 33,
+  "words": 100,
+  "grascii_exact_accuracy": 0.5,
+  "english_word_accuracy": 0.47,
+  "sentence_accuracy": 0.12121212121212122,
+  "examples": [
+    {
+      "true": [
+        "mass",
+        "medical",
+        "care"
+      ],
+      "grascii": [
+        "MAS",
+        "MED^K",
+        "GA"
+      ],
+      "predicted": [
+        "mass",
+        "medical",
+        "gay"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "one"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "UN"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "one"
+      ]
+    },
+    {
+      "true": [
+        "friendly",
+        "state",
+        "sometimes",
+        "only"
+      ],
+      "grascii": [
+        "FR",
+        "ST",
+        "STMS",
+        "ME"
+      ],
+      "predicted": [
+        "friend",
+        "state",
+        "sometimes",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "furthermore",
+        "there",
+        "were"
+      ],
+      "grascii": [
+        "FTH)M",
+        "TH",
+        "EL"
+      ],
+      "predicted": [
+        "furthermore",
+        "the",
+        "ill"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "very"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "VE"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "very"
+      ]
+    },
+    {
+      "true": [
+        "come",
+        "one",
+        "come"
+      ],
+      "grascii": [
+        "KM",
+        "UN",
+        "KM"
+      ],
+      "predicted": [
+        "come",
+        "one",
+        "come"
+      ]
+    },
+    {
+      "true": [
+        "world",
+        "renowned",
+        "mile"
+      ],
+      "grascii": [
+        "UU",
+        "RENND",
+        "MI~"
+      ],
+      "predicted": [
+        "world",
+        "renowned",
+        "mile"
+      ]
+    },
+    {
+      "true": [
+        "only",
+        "one",
+        "very"
+      ],
+      "grascii": [
+        "ME",
+        "UN",
+        "VE"
+      ],
+      "predicted": [
+        "meter",
+        "one",
+        "very"
+      ]
+    },
+    {
+      "true": [
+        "cannot",
+        "get",
+        "along"
+      ],
+      "grascii": [
+        "GN",
+        "GET",
+        "ALR"
+      ],
+      "predicted": [
+        "gone",
+        "get",
+        "allure"
+      ]
+    },
+    {
+      "true": [
+        "one",
+        "hand",
+        "there"
+      ],
+      "grascii": [
+        "UN",
+        "'ND",
+        "TH"
+      ],
+      "predicted": [
+        "one",
+        "hand",
+        "the"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "always"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "OLS"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "always"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "only"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "ME"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "only"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "ME"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "play",
+        "there",
+        "were"
+      ],
+      "grascii": [
+        "SLA",
+        "TH",
+        "EL"
+      ],
+      "predicted": [
+        "sleigh",
+        "the",
+        "ill"
+      ]
+    },
+    {
+      "true": [
+        "play",
+        "there",
+        "were"
+      ],
+      "grascii": [
+        "SLA",
+        "TH",
+        "EL"
+      ],
+      "predicted": [
+        "sleigh",
+        "the",
+        "ill"
+      ]
+    },
+    {
+      "true": [
+        "come",
+        "along",
+        "every"
+      ],
+      "grascii": [
+        "KM",
+        "ALR",
+        "EV"
+      ],
+      "predicted": [
+        "come",
+        "allure",
+        "every"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "only"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "ME"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "slight"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "SLI"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "slight"
+      ]
+    },
+    {
+      "true": [
+        "one",
+        "standard",
+        "deviation"
+      ],
+      "grascii": [
+        "UN",
+        "STA~D",
+        "DEFHA&SH"
+      ],
+      "predicted": [
+        "one",
+        "starred",
+        "[UNKNOWN]"
+      ]
+    },
+    {
+      "true": [
+        "however",
+        "there",
+        "always"
+      ],
+      "grascii": [
+        "AUV",
+        "TH",
+        "OLS"
+      ],
+      "predicted": [
+        "however",
+        "the",
+        "always"
+      ]
+    },
+    {
+      "true": [
+        "seem",
+        "very",
+        "bright"
+      ],
+      "grascii": [
+        "SEM",
+        "VE",
+        "BRI"
+      ],
+      "predicted": [
+        "seem",
+        "very",
+        "bright"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "only"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "ME"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "another",
+        "patrol"
+      ],
+      "grascii": [
+        "TH",
+        "MUTN",
+        "PA^L"
+      ],
+      "predicted": [
+        "the",
+        "mutton",
+        "patrol"
+      ]
+    },
+    {
+      "true": [
+        "world",
+        "seem",
+        "friendly"
+      ],
+      "grascii": [
+        "UU",
+        "SEM",
+        "FR"
+      ],
+      "predicted": [
+        "world",
+        "seem",
+        "friend"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were",
+        "only"
+      ],
+      "grascii": [
+        "TH",
+        "EL",
+        "ME"
+      ],
+      "predicted": [
+        "the",
+        "ill",
+        "meter"
+      ]
+    },
+    {
+      "true": [
+        "something",
+        "anybody",
+        "might"
+      ],
+      "grascii": [
+        "SM'",
+        "NEBO",
+        "MUT"
+      ],
+      "predicted": [
+        "something",
+        "anybody",
+        "moot"
+      ]
+    },
+    {
+      "true": [
+        "very",
+        "cunning",
+        "very"
+      ],
+      "grascii": [
+        "VE",
+        "KN'",
+        "VE"
+      ],
+      "predicted": [
+        "very",
+        "cunning",
+        "very"
+      ]
+    },
+    {
+      "true": [
+        "get",
+        "another",
+        "one"
+      ],
+      "grascii": [
+        "GET",
+        "MUTN",
+        "UN"
+      ],
+      "predicted": [
+        "get",
+        "mutton",
+        "one"
+      ]
+    },
+    {
+      "true": [
+        "come",
+        "into",
+        "contact"
+      ],
+      "grascii": [
+        "KM",
+        "NDU",
+        "KTAK"
+      ],
+      "predicted": [
+        "come",
+        "undue",
+        "contact"
+      ]
+    },
+    {
+      "true": [
+        "lay",
+        "always",
+        "uppermost"
+      ],
+      "grascii": [
+        "LA",
+        "OLS",
+        "UPRMO"
+      ],
+      "predicted": [
+        "like",
+        "always",
+        "uppermost"
+      ]
+    },
+    {
+      "true": [
+        "might",
+        "get",
+        "there"
+      ],
+      "grascii": [
+        "MUT",
+        "GET",
+        "TH"
+      ],
+      "predicted": [
+        "moot",
+        "get",
+        "the"
+      ]
+    },
+    {
+      "true": [
+        "might",
+        "come",
+        "easy"
+      ],
+      "grascii": [
+        "MUT",
+        "KM",
+        "ESE"
+      ],
+      "predicted": [
+        "moot",
+        "come",
+        "easy"
+      ]
+    },
+    {
+      "true": [
+        "one",
+        "whole",
+        "week"
+      ],
+      "grascii": [
+        "UN",
+        "'OL",
+        "AK"
+      ],
+      "predicted": [
+        "one",
+        "whole",
+        "acknowledge"
+      ]
+    }
+  ]
+}

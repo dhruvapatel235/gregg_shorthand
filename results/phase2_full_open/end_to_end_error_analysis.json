@@ -1,0 +1,473 @@
+{
+  "total_words": 100,
+  "recognition_correct": 52,
+  "recognition_wrong": 48,
+  "english_correct": 49,
+  "english_wrong": 51,
+  "correct_grascii_wrong_english": 3,
+  "wrong_grascii_wrong_english": 48,
+  "unknown_predictions": 0,
+  "correct_grascii_wrong_english_examples": [
+    {
+      "true_word": "friendly",
+      "true_grascii": "FR",
+      "pred_grascii": "FR",
+      "pred_english": "friend",
+      "dictionary_candidates": [
+        "friendly"
+      ]
+    },
+    {
+      "true_word": "friendly",
+      "true_grascii": "FR",
+      "pred_grascii": "FR",
+      "pred_english": "friend",
+      "dictionary_candidates": [
+        "friendly"
+      ]
+    },
+    {
+      "true_word": "lay",
+      "true_grascii": "LA",
+      "pred_grascii": "LA",
+      "pred_english": "like",
+      "dictionary_candidates": [
+        "like"
+      ]
+    }
+  ],
+  "wrong_grascii_wrong_english_examples": [
+    {
+      "true_word": "care",
+      "true_grascii": "KA",
+      "pred_grascii": "KI",
+      "pred_english": "kind",
+      "dictionary_candidates": [
+        "kind"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "cannot",
+      "true_grascii": "KN",
+      "pred_grascii": "GN",
+      "pred_english": "gone",
+      "dictionary_candidates": [
+        "gun"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "deviation",
+      "true_grascii": "DEVA&'SH",
+      "pred_grascii": "DCHES",
+      "pred_english": "duchess",
+      "dictionary_candidates": [
+        "duchess"
+      ]
+    },
+    {
+      "true_word": "however",
+      "true_grascii": "AUV",
+      "pred_grascii": "EUF",
+      "pred_english": "useful",
+      "dictionary_candidates": [
+        "useful"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "seem",
+      "true_grascii": "SEM",
+      "pred_grascii": "SAM",
+      "pred_english": "psalm",
+      "dictionary_candidates": [
+        "psalm"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "another",
+      "true_grascii": "NUTH",
+      "pred_grascii": "MUTN",
+      "pred_english": "mutton",
+      "dictionary_candidates": [
+        "mutton"
+      ]
+    },
+    {
+      "true_word": "seem",
+      "true_grascii": "SEM",
+      "pred_grascii": "SAM",
+      "pred_english": "psalm",
+      "dictionary_candidates": [
+        "psalm"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "were",
+      "true_grascii": "ER",
+      "pred_grascii": "EL",
+      "pred_english": "ill",
+      "dictionary_candidates": [
+        "ill"
+      ]
+    },
+    {
+      "true_word": "only",
+      "true_grascii": "ONE",
+      "pred_grascii": "MA",
+      "pred_english": "may",
+      "dictionary_candidates": [
+        "may"
+      ]
+    },
+    {
+      "true_word": "might",
+      "true_grascii": "MAT",
+      "pred_grascii": "MESH",
+      "pred_english": "mission",
+      "dictionary_candidates": [
+        "mission"
+      ]
+    },
+    {
+      "true_word": "another",
+      "true_grascii": "NUTH",
+      "pred_grascii": "MUTN",
+      "pred_english": "mutton",
+      "dictionary_candidates": [
+        "mutton"
+      ]
+    },
+    {
+      "true_word": "into",
+      "true_grascii": "NTU",
+      "pred_grascii": "NDU",
+      "pred_english": "undue",
+      "dictionary_candidates": [
+        "undue"
+      ]
+    },
+    {
+      "true_word": "might",
+      "true_grascii": "MAT",
+      "pred_grascii": "MESH",
+      "pred_english": "mission",
+      "dictionary_candidates": [
+        "mission"
+      ]
+    },
+    {
+      "true_word": "there",
+      "true_grascii": "TH)",
+      "pred_grascii": "TH",
+      "pred_english": "the",
+      "dictionary_candidates": [
+        "the"
+      ]
+    },
+    {
+      "true_word": "might",
+      "true_grascii": "MAT",
+      "pred_grascii": "MESH",
+      "pred_english": "mission",
+      "dictionary_candidates": [
+        "mission"
+      ]
+    },
+    {
+      "true_word": "week",
+      "true_grascii": "EK",
+      "pred_grascii": "AK",
+      "pred_english": "acknowledge",
+      "dictionary_candidates": [
+        "acknowledge"
+      ]
+    }
+  ]
+}
