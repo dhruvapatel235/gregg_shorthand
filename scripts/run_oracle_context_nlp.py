@@ -2,6 +2,7 @@ import csv
 import json
 import math
 import os
+import random
 from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -18,16 +19,18 @@ NGRAM = os.path.join(
     ROOT, "outputs", "ngram_model.json"
 )
 
+
 OUTPUT = os.path.join(
     ROOT,
     "results",
     "phase2_full_open",
-    "oracle_context_nlp_results.json"
+    "oracle_context_nlp_results_2000_random_seed42.json"
 )
 
-MAX_RUNS = 200
+MAX_RUNS = 2000
 MIN_RUN = 2
 BEAM_SIZE = 10
+SEED = 42
 
 
 def load_manifest():
@@ -228,9 +231,16 @@ with open(corpus_path, encoding="utf-8") as f:
             eligible_runs.append(current)
 
 
+
+rng = random.Random(SEED)
+rng.shuffle(eligible_runs)
+
+total_eligible_runs = len(eligible_runs)
 eligible_runs = eligible_runs[:MAX_RUNS]
 
-print("\nRuns selected:", len(eligible_runs))
+print("Total eligible runs:", total_eligible_runs)
+print("Runs selected:", len(eligible_runs))
+print("Random seed:", SEED)
 
 
 # ---------------------------------------------------------
@@ -381,13 +391,17 @@ for ex in examples[:15]:
     )
 
 
+
 results = {
+    "seed": SEED,
+    "max_runs": MAX_RUNS,
     "runs": len(eligible_runs),
     "words": total_words,
     "word_accuracy": word_accuracy,
     "run_accuracy": run_accuracy,
     "ambiguous_words": ambiguous_words,
     "ambiguous_accuracy": ambiguous_accuracy,
+    "selected_runs": eligible_runs,
     "examples": examples,
 }
 
