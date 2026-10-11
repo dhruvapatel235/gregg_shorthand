@@ -1,0 +1,19 @@
+{
+  "validation_samples": 1615,
+  "baseline_grascii_exact_accuracy": 0.4551083591331269,
+  "exact_dictionary_accuracy": 0.4551083591331269,
+  "fuzzy": {
+    "1": {
+      "accuracy": 0.5467492260061919,
+      "changed": 200,
+      "helped": 148,
+      "hurt": 0
+    },
+    "2": {
+      "accuracy": 0.5554179566563467,
+      "changed": 230,
+      "helped": 162,
+      "hurt": 0
+    }
+  }
+}

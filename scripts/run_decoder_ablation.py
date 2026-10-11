@@ -212,31 +212,30 @@ for run_id, words in enumerate(runs, 1):
         if dictionary_g is None:
             dictionary_g = top1_g
 
-        # ----------------------------------------------------
-        # English candidates for N-gram decoder
-        # ----------------------------------------------------
-
-        english_candidates = []
+        
+        # English candidates for N-gram decoder, preserving CTC scores
+        english_scores = {}
 
         for candidate_g, score in beams:
-
             for word in candidates.get(candidate_g, []):
+                # Keep the best visual score if multiple Grascii
+                # candidates map to the same English word.
+                if word not in english_scores or score > english_scores[word]:
+                    english_scores[word] = float(score)
 
-                if word not in english_candidates:
-                    english_candidates.append(word)
+        # Fallback if no dictionary words match any beam
+        if not english_scores:
+            fallback_words = candidates.get(dictionary_g, ["[UNKNOWN]"])
+            english_scores = {word: 0.0 for word in fallback_words}
 
-        # fallback
-        if not english_candidates:
-            english_candidates = candidates.get(
-                dictionary_g,
-                ["[UNKNOWN]"]
-            )
+        english_candidates = [
+            {"word": word, "visual_score": score}
+            for word, score in english_scores.items()
+        ]
 
         top1_words.append(top1_g)
         dictionary_words.append(dictionary_g)
-        ngram_candidate_lists.append(
-            english_candidates
-        )
+        ngram_candidate_lists.append(english_candidates)
 
 
     # --------------------------------------------------------
@@ -246,6 +245,14 @@ for run_id, words in enumerate(runs, 1):
     ngram_words = decoder.decode(
         ngram_candidate_lists
     )
+
+    if len(ngram_words) != len(truths):
+        raise ValueError(
+            f"Prediction length mismatch in run {run_id}: "
+            f"truths={len(truths)}, "
+            f"candidates={len(ngram_candidate_lists)}, "
+            f"predictions={len(ngram_words)}"
+        ) 
 
 
     # --------------------------------------------------------
@@ -297,23 +304,19 @@ for run_id, words in enumerate(runs, 1):
     # Save useful examples
     # --------------------------------------------------------
 
-    if len(examples) < 30:
-
-        if (
-            top1_words != [
-                true_grascii[w]
-                for w in truths
-            ]
-        ):
-
-            examples.append(
-                {
-                    "true": truths,
-                    "top1_grascii": top1_words,
-                    "dictionary_grascii": dictionary_words,
-                    "ngram_english": ngram_words,
-                }
-            )
+    
+    examples.append(
+        {
+            "run_id": run_id,
+            "true": truths,
+            "true_grascii": [
+                true_grascii[w] for w in truths
+            ],
+            "top1_grascii": top1_words,
+            "dictionary_grascii": dictionary_words,
+            "ngram_english": ngram_words,
+        }
+    )
 
 
 # ============================================================

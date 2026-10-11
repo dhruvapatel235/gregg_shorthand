@@ -1,0 +1,556 @@
+{
+  "runs": 200,
+  "words": 408,
+  "word_accuracy": {
+    "top1": 0.4534313725490196,
+    "dictionary": 0.5245098039215687,
+    "ngram": 0.23039215686274508
+  },
+  "sentence_accuracy": {
+    "top1": 0.225,
+    "dictionary": 0.275,
+    "ngram": 0.07
+  },
+  "examples": [
+    {
+      "true": [
+        "one",
+        "week"
+      ],
+      "top1_grascii": [
+        "UN",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "AK"
+      ],
+      "ngram_english": [
+        "you",
+        "good"
+      ]
+    },
+    {
+      "true": [
+        "another",
+        "week"
+      ],
+      "top1_grascii": [
+        "UTN",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "MUTN",
+        "AK"
+      ],
+      "ngram_english": [
+        "stand",
+        "good"
+      ]
+    },
+    {
+      "true": [
+        "animal",
+        "care"
+      ],
+      "top1_grascii": [
+        "ANEMN",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "ANEM",
+        "KI"
+      ],
+      "ngram_english": [
+        "animal",
+        "can"
+      ]
+    },
+    {
+      "true": [
+        "animal",
+        "care"
+      ],
+      "top1_grascii": [
+        "ANEMN",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "ANEM",
+        "KI"
+      ],
+      "ngram_english": [
+        "animal",
+        "can"
+      ]
+    },
+    {
+      "true": [
+        "project",
+        "into"
+      ],
+      "top1_grascii": [
+        "PRJK",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "PRJK",
+        "NDU"
+      ],
+      "ngram_english": [
+        "project",
+        "do"
+      ]
+    },
+    {
+      "true": [
+        "circuit",
+        "judge"
+      ],
+      "top1_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "dictionary_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "ngram_english": [
+        "self",
+        "which"
+      ]
+    },
+    {
+      "true": [
+        "get",
+        "into"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "NDU"
+      ],
+      "ngram_english": [
+        "get",
+        "do"
+      ]
+    },
+    {
+      "true": [
+        "whole",
+        "defensive"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "DVESV"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "DVESF"
+      ],
+      "ngram_english": [
+        "home",
+        "defensive"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "one"
+      ],
+      "top1_grascii": [
+        "TH",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "UN"
+      ],
+      "ngram_english": [
+        "the",
+        "you"
+      ]
+    },
+    {
+      "true": [
+        "were",
+        "there"
+      ],
+      "top1_grascii": [
+        "EL",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "TH"
+      ],
+      "ngram_english": [
+        "he",
+        "the"
+      ]
+    },
+    {
+      "true": [
+        "into",
+        "italian"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "ETALN"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "ETALN"
+      ],
+      "ngram_english": [
+        "do",
+        "italian"
+      ]
+    },
+    {
+      "true": [
+        "only",
+        "one"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "true": [
+        "couple",
+        "were"
+      ],
+      "top1_grascii": [
+        "KUP",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "KUP",
+        "EL"
+      ],
+      "ngram_english": [
+        "couple",
+        "he"
+      ]
+    },
+    {
+      "true": [
+        "circuit",
+        "judge"
+      ],
+      "top1_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "dictionary_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "ngram_english": [
+        "self",
+        "which"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "true": [
+        "provide",
+        "christmas"
+      ],
+      "top1_grascii": [
+        "PRVES",
+        "KRES"
+      ],
+      "dictionary_grascii": [
+        "PRVES",
+        "KRES"
+      ],
+      "ngram_english": [
+        "provide",
+        "christ"
+      ]
+    },
+    {
+      "true": [
+        "only",
+        "one"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "true": [
+        "cash",
+        "another"
+      ],
+      "top1_grascii": [
+        "KASH",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "KASH",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "case",
+        "stand"
+      ]
+    },
+    {
+      "true": [
+        "one",
+        "might"
+      ],
+      "top1_grascii": [
+        "UN",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "MESH"
+      ],
+      "ngram_english": [
+        "you",
+        "month"
+      ]
+    },
+    {
+      "true": [
+        "sometimes",
+        "there"
+      ],
+      "top1_grascii": [
+        "STMS",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "STMS",
+        "TH"
+      ],
+      "ngram_english": [
+        "sometimes",
+        "the"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "true": [
+        "only",
+        "one"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "true": [
+        "every",
+        "week"
+      ],
+      "top1_grascii": [
+        "EV",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "EV",
+        "AK"
+      ],
+      "ngram_english": [
+        "of",
+        "good"
+      ]
+    },
+    {
+      "true": [
+        "get",
+        "along"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "ALNG"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "ALNG"
+      ],
+      "ngram_english": [
+        "get",
+        "along"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "do"
+      ],
+      "top1_grascii": [
+        "TH",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "DU"
+      ],
+      "ngram_english": [
+        "the",
+        "to"
+      ]
+    },
+    {
+      "true": [
+        "however",
+        "one"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "UN"
+      ],
+      "ngram_english": [
+        "out",
+        "you"
+      ]
+    },
+    {
+      "true": [
+        "there",
+        "were"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "true": [
+        "federal",
+        "project"
+      ],
+      "top1_grascii": [
+        "SDRR",
+        "PRJK"
+      ],
+      "dictionary_grascii": [
+        "STRN",
+        "PRJK"
+      ],
+      "ngram_english": [
+        "strengthen",
+        "project"
+      ]
+    },
+    {
+      "true": [
+        "lukewarm",
+        "support"
+      ],
+      "top1_grascii": [
+        "LUKO_",
+        "S)^T"
+      ],
+      "dictionary_grascii": [
+        "LUKO_",
+        "S)^T"
+      ],
+      "ngram_english": [
+        "[UNKNOWN]",
+        "support"
+      ]
+    }
+  ]
+}

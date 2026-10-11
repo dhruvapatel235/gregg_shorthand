@@ -1,0 +1,231 @@
+{
+  "test_samples": 1544,
+  "exact_matches": 671,
+  "true_codes_in_dictionary": 1544,
+  "predicted_codes_in_dictionary": 785,
+  "predicted_code_contains_true_english": 671,
+  "common_missing_predictions": [
+    [
+      "MATM",
+      3
+    ],
+    [
+      "AKSB",
+      2
+    ],
+    [
+      "LASE",
+      2
+    ],
+    [
+      "M^",
+      2
+    ],
+    [
+      "AB^S)",
+      1
+    ],
+    [
+      "A~CK^F",
+      1
+    ],
+    [
+      "AK^SEIZ",
+      1
+    ],
+    [
+      "ASEAD^U",
+      1
+    ],
+    [
+      "AGSESH",
+      1
+    ],
+    [
+      "AVTUS",
+      1
+    ],
+    [
+      "AFNTRUS",
+      1
+    ],
+    [
+      "AFTM",
+      1
+    ],
+    [
+      "VIRB",
+      1
+    ],
+    [
+      "VASRE",
+      1
+    ],
+    [
+      "AVE^B",
+      1
+    ],
+    [
+      "ALMUD",
+      1
+    ],
+    [
+      "O^KAT",
+      1
+    ],
+    [
+      "ALTNETUG",
+      1
+    ],
+    [
+      "OLES",
+      1
+    ],
+    [
+      "ANBG",
+      1
+    ]
+  ],
+  "examples": [
+    {
+      "true_code": "ABOREJ",
+      "predicted_code": "ABREJ",
+      "english": "aboriginal",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": true
+    },
+    {
+      "true_code": "AB^US",
+      "predicted_code": "AB^S)",
+      "english": "abstruse",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "ABEU^V",
+      "predicted_code": "A~CK^F",
+      "english": "abusive",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AKS(B",
+      "predicted_code": "AKSB",
+      "english": "acceptable",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AKSESH",
+      "predicted_code": "AK^SEIZ",
+      "english": "accession",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "ASED^U",
+      "predicted_code": "ASEAD^U",
+      "english": "acidulate",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AKESSH",
+      "predicted_code": "AGSESH",
+      "english": "acquisition",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AKSHB",
+      "predicted_code": "AKSB",
+      "english": "actionable",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AVNTSHUS",
+      "predicted_code": "AVTUS",
+      "english": "adventitious",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AVNTRUS",
+      "predicted_code": "AFNTRUS",
+      "english": "adventurous",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AVTM",
+      "predicted_code": "AFTM",
+      "english": "advertisement",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "VIS^B",
+      "predicted_code": "VIRB",
+      "english": "advisability",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "VISRE",
+      "predicted_code": "VASRE",
+      "english": "advisory",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "AF^B",
+      "predicted_code": "AVE^B",
+      "english": "affability",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "ARE|",
+      "predicted_code": "ARI",
+      "english": "airily",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": true
+    },
+    {
+      "true_code": "ALA",
+      "predicted_code": "ALI",
+      "english": "alike",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": true
+    },
+    {
+      "true_code": "ALUD",
+      "predicted_code": "ALMUD",
+      "english": "allude",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "O(^KASH",
+      "predicted_code": "O^KAT",
+      "english": "altercation",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "ALTETUDN",
+      "predicted_code": "ALTNETUG",
+      "english": "altitudinal",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    },
+    {
+      "true_code": "OLS",
+      "predicted_code": "OLES",
+      "english": "always",
+      "true_code_in_dictionary": true,
+      "predicted_code_in_dictionary": false
+    }
+  ]
+}

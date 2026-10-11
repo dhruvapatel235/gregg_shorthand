@@ -37,15 +37,15 @@ df, meta = read_manifest(DATA)
 test = df[df["split"] == "test"].reset_index(drop=True)
 test["english"] = test["english"].str.lower()
 
-test_words = set(test["english"])
 
-word_to_image = {}
+# Keep every test image for each English word.
+word_to_images = defaultdict(list)
 true_grascii = {}
 
 for _, row in test.iterrows():
     word = row["english"]
-    word_to_image[word] = row["abs_path"]
-    true_grascii[word] = str(row["grascii"])
+    word_to_images[word].append(row["abs_path"])
+    true_grascii.setdefault(word, str(row["grascii"]))
 
 
 # ============================================================

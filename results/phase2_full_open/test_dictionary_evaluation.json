@@ -1,0 +1,415 @@
+{
+  "dataset": "data/phase2_real_full/manifest_open",
+  "checkpoint": "outputs/phase2_oversample/recognizer.pt",
+  "test_samples": 1544,
+  "grascii_cer": 0.194625,
+  "grascii_exact_accuracy": 0.43458549222797926,
+  "grascii_exact_count": 671,
+  "dictionary_coverage": 0.508419689119171,
+  "english_accuracy_first_sorted_candidate": 0.39702072538860106,
+  "english_correct_within_candidates": 0.43458549222797926,
+  "note": "Isolated-word test only. Candidate-list correctness is not a deployable decoder accuracy. First-sorted-candidate accuracy is a deterministic baseline, not contextual N-gram decoding. Verify dataset provenance before describing it as genuine handwritten performance.",
+  "examples": [
+    {
+      "true_grascii": "ABLATV",
+      "predicted_grascii": "ABLATV",
+      "true_english": "ablative",
+      "dictionary_candidates": [
+        "ablative"
+      ],
+      "chosen_dictionary_word": "ablative"
+    },
+    {
+      "true_grascii": "ABOREJ",
+      "predicted_grascii": "ABREJ",
+      "true_english": "aboriginal",
+      "dictionary_candidates": [
+        "abridge"
+      ],
+      "chosen_dictionary_word": "abridge"
+    },
+    {
+      "true_grascii": "AB^US",
+      "predicted_grascii": "AB^S)",
+      "true_english": "abstruse",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ABEU^V",
+      "predicted_grascii": "A~CK^F",
+      "true_english": "abusive",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AKS(B",
+      "predicted_grascii": "AKSB",
+      "true_english": "acceptable",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AKSESH",
+      "predicted_grascii": "AK^SEIZ",
+      "true_english": "accession",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AKP",
+      "predicted_grascii": "AKP",
+      "true_english": "accomplish",
+      "dictionary_candidates": [
+        "accomplish"
+      ],
+      "chosen_dictionary_word": "accomplish"
+    },
+    {
+      "true_grascii": "AKR^E",
+      "predicted_grascii": "AKR^E",
+      "true_english": "accordingly",
+      "dictionary_candidates": [
+        "accordingly"
+      ],
+      "chosen_dictionary_word": "accordingly"
+    },
+    {
+      "true_grascii": "AKUS",
+      "predicted_grascii": "AKUS",
+      "true_english": "accustom",
+      "dictionary_candidates": [
+        "accustom"
+      ],
+      "chosen_dictionary_word": "accustom"
+    },
+    {
+      "true_grascii": "AS^A",
+      "predicted_grascii": "AS^A",
+      "true_english": "acetic",
+      "dictionary_candidates": [
+        "acetic",
+        "ascetic",
+        "asiatic"
+      ],
+      "chosen_dictionary_word": "acetic"
+    },
+    {
+      "true_grascii": "ASED^U",
+      "predicted_grascii": "ASEAD^U",
+      "true_english": "acidulate",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AKIM",
+      "predicted_grascii": "AKIM",
+      "true_english": "acquirement",
+      "dictionary_candidates": [
+        "acquirement"
+      ],
+      "chosen_dictionary_word": "acquirement"
+    },
+    {
+      "true_grascii": "AKESSH",
+      "predicted_grascii": "AGSESH",
+      "true_english": "acquisition",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AKR^ST",
+      "predicted_grascii": "AKR^ST",
+      "true_english": "acrostic",
+      "dictionary_candidates": [
+        "acrostic"
+      ],
+      "chosen_dictionary_word": "acrostic"
+    },
+    {
+      "true_grascii": "AKSHB",
+      "predicted_grascii": "AKSB",
+      "true_english": "actionable",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ADE~",
+      "predicted_grascii": "ADE~",
+      "true_english": "adder",
+      "dictionary_candidates": [
+        "adder"
+      ],
+      "chosen_dictionary_word": "adder"
+    },
+    {
+      "true_grascii": "AJOEN",
+      "predicted_grascii": "AJOEN",
+      "true_english": "adjoin",
+      "dictionary_candidates": [
+        "adjoin"
+      ],
+      "chosen_dictionary_word": "adjoin"
+    },
+    {
+      "true_grascii": "AMETNS",
+      "predicted_grascii": "AMETNS",
+      "true_english": "admittance",
+      "dictionary_candidates": [
+        "admittance"
+      ],
+      "chosen_dictionary_word": "admittance"
+    },
+    {
+      "true_grascii": "ADOLES",
+      "predicted_grascii": "ADOLES",
+      "true_english": "adolescent",
+      "dictionary_candidates": [
+        "adolescence",
+        "adolescent"
+      ],
+      "chosen_dictionary_word": "adolescence"
+    },
+    {
+      "true_grascii": "AVNTSHUS",
+      "predicted_grascii": "AVTUS",
+      "true_english": "adventitious",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AVNTRUS",
+      "predicted_grascii": "AFNTRUS",
+      "true_english": "adventurous",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AVESTE",
+      "predicted_grascii": "AVESTE",
+      "true_english": "adversity",
+      "dictionary_candidates": [
+        "adversity"
+      ],
+      "chosen_dictionary_word": "adversity"
+    },
+    {
+      "true_grascii": "AVTM",
+      "predicted_grascii": "AFTM",
+      "true_english": "advertisement",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "VIS^B",
+      "predicted_grascii": "VIRB",
+      "true_english": "advisability",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "VISRE",
+      "predicted_grascii": "VASRE",
+      "true_english": "advisory",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AF^B",
+      "predicted_grascii": "AVE^B",
+      "true_english": "affability",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AGOG",
+      "predicted_grascii": "AGOG",
+      "true_english": "agog",
+      "dictionary_candidates": [
+        "agog"
+      ],
+      "chosen_dictionary_word": "agog"
+    },
+    {
+      "true_grascii": "ARE|",
+      "predicted_grascii": "ARI",
+      "true_english": "airily",
+      "dictionary_candidates": [
+        "arrival",
+        "arrive",
+        "awry"
+      ],
+      "chosen_dictionary_word": "arrival"
+    },
+    {
+      "true_grascii": "ALA",
+      "predicted_grascii": "ALI",
+      "true_english": "alike",
+      "dictionary_candidates": [
+        "ally"
+      ],
+      "chosen_dictionary_word": "ally"
+    },
+    {
+      "true_grascii": "ALETSH",
+      "predicted_grascii": "ALETSH",
+      "true_english": "alliteration",
+      "dictionary_candidates": [
+        "alliteration"
+      ],
+      "chosen_dictionary_word": "alliteration"
+    },
+    {
+      "true_grascii": "ALUD",
+      "predicted_grascii": "ALMUD",
+      "true_english": "allude",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ALO",
+      "predicted_grascii": "ALO",
+      "true_english": "aloe",
+      "dictionary_candidates": [
+        "aloe"
+      ],
+      "chosen_dictionary_word": "aloe"
+    },
+    {
+      "true_grascii": "ALNG",
+      "predicted_grascii": "ALNG",
+      "true_english": "along",
+      "dictionary_candidates": [
+        "along"
+      ],
+      "chosen_dictionary_word": "along"
+    },
+    {
+      "true_grascii": "O(^KASH",
+      "predicted_grascii": "O^KAT",
+      "true_english": "altercation",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ALTETUDN",
+      "predicted_grascii": "ALTNETUG",
+      "true_english": "altitudinal",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ALMNI",
+      "predicted_grascii": "ALMNI",
+      "true_english": "alumni",
+      "dictionary_candidates": [
+        "alumni"
+      ],
+      "chosen_dictionary_word": "alumni"
+    },
+    {
+      "true_grascii": "OLS",
+      "predicted_grascii": "OLES",
+      "true_english": "always",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMBG",
+      "predicted_grascii": "ANBG",
+      "true_english": "ambiguous",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMB",
+      "predicted_grascii": "AMTB",
+      "true_english": "ambition",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMBROSHA",
+      "predicted_grascii": "AMPRSHE|",
+      "true_english": "ambrosia",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AM",
+      "predicted_grascii": "AM^",
+      "true_english": "america",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMUNSH",
+      "predicted_grascii": "AMUNSH",
+      "true_english": "ammunition",
+      "dictionary_candidates": [
+        "ammunition"
+      ],
+      "chosen_dictionary_word": "ammunition"
+    },
+    {
+      "true_grascii": "AMFTHET",
+      "predicted_grascii": "AMFNET",
+      "true_english": "amphitheater",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMPLETU",
+      "predicted_grascii": "AMPLENU",
+      "true_english": "amplitude",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "AMPUT",
+      "predicted_grascii": "AMPUT",
+      "true_english": "amputate",
+      "dictionary_candidates": [
+        "amputate"
+      ],
+      "chosen_dictionary_word": "amputate"
+    },
+    {
+      "true_grascii": "AMULET",
+      "predicted_grascii": "AMUSLET",
+      "true_english": "amulet",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ANEMA&'",
+      "predicted_grascii": "ANEMI&'",
+      "true_english": "anaemia",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ANESTH^A",
+      "predicted_grascii": "ANEST^A",
+      "true_english": "anaesthetic",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    },
+    {
+      "true_grascii": "ANALIZ",
+      "predicted_grascii": "ANALIZ",
+      "true_english": "analyze",
+      "dictionary_candidates": [
+        "analyze"
+      ],
+      "chosen_dictionary_word": "analyze"
+    },
+    {
+      "true_grascii": "ANATME",
+      "predicted_grascii": "ANETME",
+      "true_english": "anatomy",
+      "dictionary_candidates": [],
+      "chosen_dictionary_word": ""
+    }
+  ]
+}

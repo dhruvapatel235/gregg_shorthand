@@ -1,0 +1,4656 @@
+{
+  "runs": 200,
+  "words": 408,
+  "word_accuracy": {
+    "top1": 0.4534313725490196,
+    "dictionary": 0.5245098039215687,
+    "ngram": 0.23039215686274508
+  },
+  "sentence_accuracy": {
+    "top1": 0.225,
+    "dictionary": 0.275,
+    "ngram": 0.07
+  },
+  "examples": [
+    {
+      "run_id": 1,
+      "true": [
+        "one",
+        "week"
+      ],
+      "true_grascii": [
+        "UN",
+        "EK"
+      ],
+      "top1_grascii": [
+        "UN",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "AK"
+      ],
+      "ngram_english": [
+        "you",
+        "good"
+      ]
+    },
+    {
+      "run_id": 2,
+      "true": [
+        "do",
+        "something"
+      ],
+      "true_grascii": [
+        "DU",
+        "SM'"
+      ],
+      "top1_grascii": [
+        "DU",
+        "SM'"
+      ],
+      "dictionary_grascii": [
+        "DU",
+        "SM'"
+      ],
+      "ngram_english": [
+        "to",
+        "from"
+      ]
+    },
+    {
+      "run_id": 3,
+      "true": [
+        "one",
+        "diplomat"
+      ],
+      "true_grascii": [
+        "UN",
+        "DPLOMAT"
+      ],
+      "top1_grascii": [
+        "UN",
+        "DPLOMAT"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "DPLOMAT"
+      ],
+      "ngram_english": [
+        "you",
+        "diplomat"
+      ]
+    },
+    {
+      "run_id": 4,
+      "true": [
+        "state",
+        "police"
+      ],
+      "true_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "top1_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "ngram_english": [
+        "state",
+        "police"
+      ]
+    },
+    {
+      "run_id": 5,
+      "true": [
+        "another",
+        "week"
+      ],
+      "true_grascii": [
+        "NUTH",
+        "EK"
+      ],
+      "top1_grascii": [
+        "UTN",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "MUTN",
+        "AK"
+      ],
+      "ngram_english": [
+        "stand",
+        "good"
+      ]
+    },
+    {
+      "run_id": 6,
+      "true": [
+        "animal",
+        "care"
+      ],
+      "true_grascii": [
+        "ANEM",
+        "KA"
+      ],
+      "top1_grascii": [
+        "ANEMN",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "ANEM",
+        "KI"
+      ],
+      "ngram_english": [
+        "animal",
+        "can"
+      ]
+    },
+    {
+      "run_id": 7,
+      "true": [
+        "animal",
+        "care"
+      ],
+      "true_grascii": [
+        "ANEM",
+        "KA"
+      ],
+      "top1_grascii": [
+        "ANEMN",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "ANEM",
+        "KI"
+      ],
+      "ngram_english": [
+        "animal",
+        "can"
+      ]
+    },
+    {
+      "run_id": 8,
+      "true": [
+        "project",
+        "into"
+      ],
+      "true_grascii": [
+        "PRJK",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "PRJK",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "PRJK",
+        "NDU"
+      ],
+      "ngram_english": [
+        "project",
+        "do"
+      ]
+    },
+    {
+      "run_id": 9,
+      "true": [
+        "circuit",
+        "judge"
+      ],
+      "true_grascii": [
+        "S(^T",
+        "JJ"
+      ],
+      "top1_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "dictionary_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "ngram_english": [
+        "self",
+        "which"
+      ]
+    },
+    {
+      "run_id": 10,
+      "true": [
+        "vital",
+        "contact"
+      ],
+      "true_grascii": [
+        "VITL",
+        "KTAK"
+      ],
+      "top1_grascii": [
+        "VITL",
+        "KTAK"
+      ],
+      "dictionary_grascii": [
+        "VITL",
+        "KTAK"
+      ],
+      "ngram_english": [
+        "final",
+        "character"
+      ]
+    },
+    {
+      "run_id": 11,
+      "true": [
+        "get",
+        "into"
+      ],
+      "true_grascii": [
+        "GET",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "NDU"
+      ],
+      "ngram_english": [
+        "get",
+        "do"
+      ]
+    },
+    {
+      "run_id": 12,
+      "true": [
+        "whole",
+        "defensive"
+      ],
+      "true_grascii": [
+        "'OL",
+        "DFENSV"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "DVESV"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "DVESF"
+      ],
+      "ngram_english": [
+        "home",
+        "defensive"
+      ]
+    },
+    {
+      "run_id": 13,
+      "true": [
+        "attack",
+        "split"
+      ],
+      "true_grascii": [
+        "ATAK",
+        "SPLET"
+      ],
+      "top1_grascii": [
+        "ATAK",
+        "SPLET"
+      ],
+      "dictionary_grascii": [
+        "ATAK",
+        "SPLET"
+      ],
+      "ngram_english": [
+        "attack",
+        "split"
+      ]
+    },
+    {
+      "run_id": 14,
+      "true": [
+        "there",
+        "one"
+      ],
+      "true_grascii": [
+        "TH)",
+        "UN"
+      ],
+      "top1_grascii": [
+        "TH",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "UN"
+      ],
+      "ngram_english": [
+        "the",
+        "you"
+      ]
+    },
+    {
+      "run_id": 15,
+      "true": [
+        "were",
+        "there"
+      ],
+      "true_grascii": [
+        "ER",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "EL",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "TH"
+      ],
+      "ngram_english": [
+        "he",
+        "the"
+      ]
+    },
+    {
+      "run_id": 16,
+      "true": [
+        "into",
+        "italian"
+      ],
+      "true_grascii": [
+        "NTU",
+        "ETALN"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "ETALN"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "ETALN"
+      ],
+      "ngram_english": [
+        "do",
+        "italian"
+      ]
+    },
+    {
+      "run_id": 17,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 18,
+      "true": [
+        "couple",
+        "were"
+      ],
+      "true_grascii": [
+        "KUP",
+        "ER"
+      ],
+      "top1_grascii": [
+        "KUP",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "KUP",
+        "EL"
+      ],
+      "ngram_english": [
+        "couple",
+        "he"
+      ]
+    },
+    {
+      "run_id": 19,
+      "true": [
+        "state",
+        "do"
+      ],
+      "true_grascii": [
+        "ST",
+        "DU"
+      ],
+      "top1_grascii": [
+        "ST",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "DU"
+      ],
+      "ngram_english": [
+        "state",
+        "to"
+      ]
+    },
+    {
+      "run_id": 20,
+      "true": [
+        "state",
+        "police"
+      ],
+      "true_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "top1_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "POLES"
+      ],
+      "ngram_english": [
+        "state",
+        "police"
+      ]
+    },
+    {
+      "run_id": 21,
+      "true": [
+        "circuit",
+        "judge"
+      ],
+      "true_grascii": [
+        "S(^T",
+        "JJ"
+      ],
+      "top1_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "dictionary_grascii": [
+        "S(^T",
+        "CH"
+      ],
+      "ngram_english": [
+        "self",
+        "which"
+      ]
+    },
+    {
+      "run_id": 22,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 23,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 24,
+      "true": [
+        "provide",
+        "christmas"
+      ],
+      "true_grascii": [
+        "PRVI",
+        "KRES"
+      ],
+      "top1_grascii": [
+        "PRVES",
+        "KRES"
+      ],
+      "dictionary_grascii": [
+        "PRVES",
+        "KRES"
+      ],
+      "ngram_english": [
+        "provide",
+        "christ"
+      ]
+    },
+    {
+      "run_id": 25,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 26,
+      "true": [
+        "cash",
+        "another"
+      ],
+      "true_grascii": [
+        "KASH",
+        "NUTH"
+      ],
+      "top1_grascii": [
+        "KASH",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "KASH",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "case",
+        "stand"
+      ]
+    },
+    {
+      "run_id": 27,
+      "true": [
+        "combination",
+        "along"
+      ],
+      "true_grascii": [
+        "KBNSH",
+        "ALNG"
+      ],
+      "top1_grascii": [
+        "KBNSH",
+        "ALNG"
+      ],
+      "dictionary_grascii": [
+        "KBNSH",
+        "ALNG"
+      ],
+      "ngram_english": [
+        "combination",
+        "along"
+      ]
+    },
+    {
+      "run_id": 28,
+      "true": [
+        "one",
+        "might"
+      ],
+      "true_grascii": [
+        "UN",
+        "MAT"
+      ],
+      "top1_grascii": [
+        "UN",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "MESH"
+      ],
+      "ngram_english": [
+        "you",
+        "month"
+      ]
+    },
+    {
+      "run_id": 29,
+      "true": [
+        "sometimes",
+        "there"
+      ],
+      "true_grascii": [
+        "STMS",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "STMS",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "STMS",
+        "TH"
+      ],
+      "ngram_english": [
+        "sometimes",
+        "the"
+      ]
+    },
+    {
+      "run_id": 30,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 31,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 32,
+      "true": [
+        "world",
+        "situation"
+      ],
+      "true_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "top1_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "ngram_english": [
+        "to",
+        "situation"
+      ]
+    },
+    {
+      "run_id": 33,
+      "true": [
+        "every",
+        "week"
+      ],
+      "true_grascii": [
+        "EV",
+        "EK"
+      ],
+      "top1_grascii": [
+        "EV",
+        "AG"
+      ],
+      "dictionary_grascii": [
+        "EV",
+        "AK"
+      ],
+      "ngram_english": [
+        "of",
+        "good"
+      ]
+    },
+    {
+      "run_id": 34,
+      "true": [
+        "get",
+        "along"
+      ],
+      "true_grascii": [
+        "GET",
+        "ALNG"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "ALNG"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "ALNG"
+      ],
+      "ngram_english": [
+        "get",
+        "along"
+      ]
+    },
+    {
+      "run_id": 35,
+      "true": [
+        "there",
+        "do"
+      ],
+      "true_grascii": [
+        "TH)",
+        "DU"
+      ],
+      "top1_grascii": [
+        "TH",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "DU"
+      ],
+      "ngram_english": [
+        "the",
+        "to"
+      ]
+    },
+    {
+      "run_id": 36,
+      "true": [
+        "however",
+        "one"
+      ],
+      "true_grascii": [
+        "AUV",
+        "UN"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "UN"
+      ],
+      "ngram_english": [
+        "out",
+        "you"
+      ]
+    },
+    {
+      "run_id": 37,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 38,
+      "true": [
+        "whole",
+        "world"
+      ],
+      "true_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "ngram_english": [
+        "home",
+        "to"
+      ]
+    },
+    {
+      "run_id": 39,
+      "true": [
+        "federal",
+        "project"
+      ],
+      "true_grascii": [
+        "FEDRL",
+        "PRJK"
+      ],
+      "top1_grascii": [
+        "SDRR",
+        "PRJK"
+      ],
+      "dictionary_grascii": [
+        "STRN",
+        "PRJK"
+      ],
+      "ngram_english": [
+        "strengthen",
+        "project"
+      ]
+    },
+    {
+      "run_id": 40,
+      "true": [
+        "lukewarm",
+        "support"
+      ],
+      "true_grascii": [
+        "LUKO_RM",
+        "S)^T"
+      ],
+      "top1_grascii": [
+        "LUKO_",
+        "S)^T"
+      ],
+      "dictionary_grascii": [
+        "LUKO_",
+        "S)^T"
+      ],
+      "ngram_english": [
+        "[UNKNOWN]",
+        "support"
+      ]
+    },
+    {
+      "run_id": 41,
+      "true": [
+        "week",
+        "judge"
+      ],
+      "true_grascii": [
+        "EK",
+        "JJ"
+      ],
+      "top1_grascii": [
+        "AG",
+        "CH"
+      ],
+      "dictionary_grascii": [
+        "AK",
+        "CH"
+      ],
+      "ngram_english": [
+        "good",
+        "which"
+      ]
+    },
+    {
+      "run_id": 42,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 43,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 44,
+      "true": [
+        "hit",
+        "one"
+      ],
+      "true_grascii": [
+        "'ET",
+        "UN"
+      ],
+      "top1_grascii": [
+        "'ET",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "'ET",
+        "UN"
+      ],
+      "ngram_english": [
+        "head",
+        "you"
+      ]
+    },
+    {
+      "run_id": 45,
+      "true": [
+        "one",
+        "basic"
+      ],
+      "true_grascii": [
+        "UN",
+        "BASK"
+      ],
+      "top1_grascii": [
+        "UN",
+        "BAST"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "BAST"
+      ],
+      "ngram_english": [
+        "you",
+        "basic"
+      ]
+    },
+    {
+      "run_id": 46,
+      "true": [
+        "get",
+        "into"
+      ],
+      "true_grascii": [
+        "GET",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "NDU"
+      ],
+      "ngram_english": [
+        "get",
+        "do"
+      ]
+    },
+    {
+      "run_id": 47,
+      "true": [
+        "studied",
+        "journalism"
+      ],
+      "true_grascii": [
+        "STDE^T",
+        "JE~NSM"
+      ],
+      "top1_grascii": [
+        "SDE^T",
+        "CE~NUM"
+      ],
+      "dictionary_grascii": [
+        "STDE^T",
+        "JE~NSM"
+      ],
+      "ngram_english": [
+        "studied",
+        "journalism"
+      ]
+    },
+    {
+      "run_id": 48,
+      "true": [
+        "historical",
+        "unity"
+      ],
+      "true_grascii": [
+        "'ESTOR^K",
+        "EU^NT"
+      ],
+      "top1_grascii": [
+        "'ESTOR^K",
+        "EU^NT"
+      ],
+      "dictionary_grascii": [
+        "'ESTOR^K",
+        "EU^NT"
+      ],
+      "ngram_english": [
+        "historical",
+        "unity"
+      ]
+    },
+    {
+      "run_id": 49,
+      "true": [
+        "mass",
+        "medical",
+        "care"
+      ],
+      "true_grascii": [
+        "MAS",
+        "MED^K",
+        "KA"
+      ],
+      "top1_grascii": [
+        "MAS",
+        "MED^K",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "MAS",
+        "MED^K",
+        "KI"
+      ],
+      "ngram_english": [
+        "may",
+        "medical",
+        "can"
+      ]
+    },
+    {
+      "run_id": 50,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 51,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 52,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 53,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 54,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 55,
+      "true": [
+        "however",
+        "there"
+      ],
+      "true_grascii": [
+        "AUV",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "TH"
+      ],
+      "ngram_english": [
+        "out",
+        "the"
+      ]
+    },
+    {
+      "run_id": 56,
+      "true": [
+        "october",
+        "something"
+      ],
+      "true_grascii": [
+        "OKT",
+        "SM'"
+      ],
+      "top1_grascii": [
+        "OKT^E",
+        "SM'"
+      ],
+      "dictionary_grascii": [
+        "OKT",
+        "SM'"
+      ],
+      "ngram_english": [
+        "county",
+        "from"
+      ]
+    },
+    {
+      "run_id": 57,
+      "true": [
+        "another",
+        "result"
+      ],
+      "true_grascii": [
+        "NUTH",
+        "RSU"
+      ],
+      "top1_grascii": [
+        "UTN",
+        "RSU"
+      ],
+      "dictionary_grascii": [
+        "MUTN",
+        "RSU"
+      ],
+      "ngram_english": [
+        "stand",
+        "result"
+      ]
+    },
+    {
+      "run_id": 58,
+      "true": [
+        "were",
+        "hit"
+      ],
+      "true_grascii": [
+        "ER",
+        "'ET"
+      ],
+      "top1_grascii": [
+        "EL",
+        "'ET"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "'ET"
+      ],
+      "ngram_english": [
+        "he",
+        "head"
+      ]
+    },
+    {
+      "run_id": 59,
+      "true": [
+        "put",
+        "into"
+      ],
+      "true_grascii": [
+        "P",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "P",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "P",
+        "NDU"
+      ],
+      "ngram_english": [
+        "of",
+        "do"
+      ]
+    },
+    {
+      "run_id": 60,
+      "true": [
+        "into",
+        "british"
+      ],
+      "true_grascii": [
+        "NTU",
+        "BRETSH"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "BRETSH"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "BRETSH"
+      ],
+      "ngram_english": [
+        "do",
+        "british"
+      ]
+    },
+    {
+      "run_id": 61,
+      "true": [
+        "nearly",
+        "book"
+      ],
+      "true_grascii": [
+        "NEE",
+        "BK"
+      ],
+      "top1_grascii": [
+        "MATE",
+        "BK"
+      ],
+      "dictionary_grascii": [
+        "MAT",
+        "BK"
+      ],
+      "ngram_english": [
+        "might",
+        "can"
+      ]
+    },
+    {
+      "run_id": 62,
+      "true": [
+        "book",
+        "selection"
+      ],
+      "true_grascii": [
+        "BK",
+        "SELSH"
+      ],
+      "top1_grascii": [
+        "BK",
+        "SELSH"
+      ],
+      "dictionary_grascii": [
+        "BK",
+        "SELSH"
+      ],
+      "ngram_english": [
+        "can",
+        "election"
+      ]
+    },
+    {
+      "run_id": 63,
+      "true": [
+        "whose",
+        "support"
+      ],
+      "true_grascii": [
+        "'US",
+        "S)^T"
+      ],
+      "top1_grascii": [
+        "'U",
+        "S)^T"
+      ],
+      "dictionary_grascii": [
+        "'U",
+        "S)^T"
+      ],
+      "ngram_english": [
+        "you",
+        "support"
+      ]
+    },
+    {
+      "run_id": 64,
+      "true": [
+        "into",
+        "one"
+      ],
+      "true_grascii": [
+        "NTU",
+        "UN"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "UN"
+      ],
+      "ngram_english": [
+        "do",
+        "you"
+      ]
+    },
+    {
+      "run_id": 65,
+      "true": [
+        "territory",
+        "into"
+      ],
+      "true_grascii": [
+        "TE~T",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "TE~T",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "TE~T",
+        "NDU"
+      ],
+      "ngram_english": [
+        "tell",
+        "do"
+      ]
+    },
+    {
+      "run_id": 66,
+      "true": [
+        "state",
+        "advisory"
+      ],
+      "true_grascii": [
+        "ST",
+        "VISRE"
+      ],
+      "top1_grascii": [
+        "ST",
+        "VESRE"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "VESHRE"
+      ],
+      "ngram_english": [
+        "state",
+        "visionary"
+      ]
+    },
+    {
+      "run_id": 67,
+      "true": [
+        "state",
+        "do"
+      ],
+      "true_grascii": [
+        "ST",
+        "DU"
+      ],
+      "top1_grascii": [
+        "ST",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "DU"
+      ],
+      "ngram_english": [
+        "state",
+        "to"
+      ]
+    },
+    {
+      "run_id": 68,
+      "true": [
+        "spark",
+        "secession"
+      ],
+      "true_grascii": [
+        "SPARK",
+        "SESESH"
+      ],
+      "top1_grascii": [
+        "SPARK",
+        "UESH"
+      ],
+      "dictionary_grascii": [
+        "SPARK",
+        "SESH"
+      ],
+      "ngram_english": [
+        "spare",
+        "usually"
+      ]
+    },
+    {
+      "run_id": 69,
+      "true": [
+        "rivalry",
+        "do"
+      ],
+      "true_grascii": [
+        "RIVRE",
+        "DU"
+      ],
+      "top1_grascii": [
+        "RIVRE~",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "RIVRE",
+        "DU"
+      ],
+      "ngram_english": [
+        "rivalry",
+        "to"
+      ]
+    },
+    {
+      "run_id": 70,
+      "true": [
+        "situation",
+        "there"
+      ],
+      "true_grascii": [
+        "SETSH",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "SETSH",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "SETSH",
+        "TH"
+      ],
+      "ngram_english": [
+        "situation",
+        "the"
+      ]
+    },
+    {
+      "run_id": 71,
+      "true": [
+        "sometimes",
+        "seem"
+      ],
+      "true_grascii": [
+        "STMS",
+        "SEM"
+      ],
+      "top1_grascii": [
+        "STMS",
+        "SAM"
+      ],
+      "dictionary_grascii": [
+        "STMS",
+        "SAM"
+      ],
+      "ngram_english": [
+        "sometimes",
+        "from"
+      ]
+    },
+    {
+      "run_id": 72,
+      "true": [
+        "do",
+        "sometimes"
+      ],
+      "true_grascii": [
+        "DU",
+        "STMS"
+      ],
+      "top1_grascii": [
+        "DU",
+        "STMS"
+      ],
+      "dictionary_grascii": [
+        "DU",
+        "STMS"
+      ],
+      "ngram_english": [
+        "to",
+        "sometimes"
+      ]
+    },
+    {
+      "run_id": 73,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 74,
+      "true": [
+        "one",
+        "hotel"
+      ],
+      "true_grascii": [
+        "UN",
+        "'OTEL"
+      ],
+      "top1_grascii": [
+        "UN",
+        "'OTEL"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "'OTEL"
+      ],
+      "ngram_english": [
+        "you",
+        "hotel"
+      ]
+    },
+    {
+      "run_id": 75,
+      "true": [
+        "might",
+        "very"
+      ],
+      "true_grascii": [
+        "MAT",
+        "VE"
+      ],
+      "top1_grascii": [
+        "MESH",
+        "VE"
+      ],
+      "dictionary_grascii": [
+        "MESH",
+        "VE"
+      ],
+      "ngram_english": [
+        "month",
+        "he"
+      ]
+    },
+    {
+      "run_id": 76,
+      "true": [
+        "learned",
+        "something"
+      ],
+      "true_grascii": [
+        "LEN^T",
+        "SM'"
+      ],
+      "top1_grascii": [
+        "LEM^T",
+        "SM'"
+      ],
+      "dictionary_grascii": [
+        "LEM^T",
+        "SM'"
+      ],
+      "ngram_english": [
+        "literature",
+        "from"
+      ]
+    },
+    {
+      "run_id": 77,
+      "true": [
+        "into",
+        "contact"
+      ],
+      "true_grascii": [
+        "NTU",
+        "KTAK"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "KTAK"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "KTAK"
+      ],
+      "ngram_english": [
+        "do",
+        "character"
+      ]
+    },
+    {
+      "run_id": 78,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 79,
+      "true": [
+        "get",
+        "into"
+      ],
+      "true_grascii": [
+        "GET",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "NDU"
+      ],
+      "ngram_english": [
+        "get",
+        "do"
+      ]
+    },
+    {
+      "run_id": 80,
+      "true": [
+        "one",
+        "another"
+      ],
+      "true_grascii": [
+        "UN",
+        "NUTH"
+      ],
+      "top1_grascii": [
+        "UN",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "you",
+        "stand"
+      ]
+    },
+    {
+      "run_id": 81,
+      "true": [
+        "force",
+        "might"
+      ],
+      "true_grascii": [
+        "FS",
+        "MAT"
+      ],
+      "top1_grascii": [
+        "F",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "F",
+        "MESH"
+      ],
+      "ngram_english": [
+        "he",
+        "month"
+      ]
+    },
+    {
+      "run_id": 82,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 83,
+      "true": [
+        "attack",
+        "world"
+      ],
+      "true_grascii": [
+        "ATAK",
+        "UU"
+      ],
+      "top1_grascii": [
+        "ATAK",
+        "UU"
+      ],
+      "dictionary_grascii": [
+        "ATAK",
+        "UU"
+      ],
+      "ngram_english": [
+        "attack",
+        "to"
+      ]
+    },
+    {
+      "run_id": 84,
+      "true": [
+        "toward",
+        "world"
+      ],
+      "true_grascii": [
+        "TOD",
+        "UU"
+      ],
+      "top1_grascii": [
+        "TOD",
+        "UU"
+      ],
+      "dictionary_grascii": [
+        "TOD",
+        "UU"
+      ],
+      "ngram_english": [
+        "thought",
+        "to"
+      ]
+    },
+    {
+      "run_id": 85,
+      "true": [
+        "however",
+        "there"
+      ],
+      "true_grascii": [
+        "AUV",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "TH"
+      ],
+      "ngram_english": [
+        "out",
+        "the"
+      ]
+    },
+    {
+      "run_id": 86,
+      "true": [
+        "donate",
+        "one"
+      ],
+      "true_grascii": [
+        "DONAT",
+        "UN"
+      ],
+      "top1_grascii": [
+        "DONAT",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "DONAT",
+        "UN"
+      ],
+      "ngram_english": [
+        "donate",
+        "you"
+      ]
+    },
+    {
+      "run_id": 87,
+      "true": [
+        "stay",
+        "put"
+      ],
+      "true_grascii": [
+        "STA",
+        "P"
+      ],
+      "top1_grascii": [
+        "STA",
+        "P"
+      ],
+      "dictionary_grascii": [
+        "STA",
+        "P"
+      ],
+      "ngram_english": [
+        "state",
+        "of"
+      ]
+    },
+    {
+      "run_id": 88,
+      "true": [
+        "only",
+        "threaten"
+      ],
+      "true_grascii": [
+        "ONE",
+        "THRETN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "THRETN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "THRETN"
+      ],
+      "ngram_english": [
+        "may",
+        "threat"
+      ]
+    },
+    {
+      "run_id": 89,
+      "true": [
+        "whole",
+        "lot"
+      ],
+      "true_grascii": [
+        "'OL",
+        "LOT"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "LOT"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "LOT"
+      ],
+      "ngram_english": [
+        "home",
+        "little"
+      ]
+    },
+    {
+      "run_id": 90,
+      "true": [
+        "there",
+        "were",
+        "one"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER",
+        "UN"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL",
+        "UN"
+      ],
+      "ngram_english": [
+        "the",
+        "he",
+        "you"
+      ]
+    },
+    {
+      "run_id": 91,
+      "true": [
+        "seem",
+        "justifiable"
+      ],
+      "true_grascii": [
+        "SEM",
+        "JUSTF^B"
+      ],
+      "top1_grascii": [
+        "SAM",
+        "JES^B"
+      ],
+      "dictionary_grascii": [
+        "SAM",
+        "JES^B"
+      ],
+      "ngram_english": [
+        "from",
+        "[UNKNOWN]"
+      ]
+    },
+    {
+      "run_id": 92,
+      "true": [
+        "play",
+        "cannot"
+      ],
+      "true_grascii": [
+        "PLA",
+        "KN"
+      ],
+      "top1_grascii": [
+        "PLLA",
+        "GN"
+      ],
+      "dictionary_grascii": [
+        "PLA",
+        "GN"
+      ],
+      "ngram_english": [
+        "place",
+        "not"
+      ]
+    },
+    {
+      "run_id": 93,
+      "true": [
+        "friendly",
+        "state",
+        "sometimes",
+        "only"
+      ],
+      "true_grascii": [
+        "FR",
+        "ST",
+        "STMS",
+        "ONE"
+      ],
+      "top1_grascii": [
+        "FR",
+        "ST",
+        "STMS",
+        "OMA"
+      ],
+      "dictionary_grascii": [
+        "FR",
+        "ST",
+        "STMS",
+        "MA"
+      ],
+      "ngram_english": [
+        "for",
+        "state",
+        "sometimes",
+        "may"
+      ]
+    },
+    {
+      "run_id": 94,
+      "true": [
+        "there",
+        "might"
+      ],
+      "true_grascii": [
+        "TH)",
+        "MAT"
+      ],
+      "top1_grascii": [
+        "TH",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "MESH"
+      ],
+      "ngram_english": [
+        "the",
+        "month"
+      ]
+    },
+    {
+      "run_id": 95,
+      "true": [
+        "very",
+        "very"
+      ],
+      "true_grascii": [
+        "VE",
+        "VE"
+      ],
+      "top1_grascii": [
+        "VE",
+        "VE"
+      ],
+      "dictionary_grascii": [
+        "VE",
+        "VE"
+      ],
+      "ngram_english": [
+        "he",
+        "he"
+      ]
+    },
+    {
+      "run_id": 96,
+      "true": [
+        "incredible",
+        "tale"
+      ],
+      "true_grascii": [
+        "NKREDB",
+        "TAL"
+      ],
+      "top1_grascii": [
+        "NKREDB",
+        "TAL"
+      ],
+      "dictionary_grascii": [
+        "NKREDB",
+        "TAL"
+      ],
+      "ngram_english": [
+        "incredible",
+        "allow"
+      ]
+    },
+    {
+      "run_id": 97,
+      "true": [
+        "cannot",
+        "get"
+      ],
+      "true_grascii": [
+        "KN",
+        "GET"
+      ],
+      "top1_grascii": [
+        "GN",
+        "GET'"
+      ],
+      "dictionary_grascii": [
+        "GN",
+        "GET"
+      ],
+      "ngram_english": [
+        "not",
+        "get"
+      ]
+    },
+    {
+      "run_id": 98,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 99,
+      "true": [
+        "furthermore",
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "FTH)M",
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "FTH)M",
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "FTH)M",
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "furthermore",
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 100,
+      "true": [
+        "were",
+        "stylish"
+      ],
+      "true_grascii": [
+        "ER",
+        "STI~^SH"
+      ],
+      "top1_grascii": [
+        "EL",
+        "STI~^S"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "STI~^SH"
+      ],
+      "ngram_english": [
+        "he",
+        "style"
+      ]
+    },
+    {
+      "run_id": 101,
+      "true": [
+        "world",
+        "might"
+      ],
+      "true_grascii": [
+        "UU",
+        "MAT"
+      ],
+      "top1_grascii": [
+        "UU",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "MESH"
+      ],
+      "ngram_english": [
+        "to",
+        "month"
+      ]
+    },
+    {
+      "run_id": 102,
+      "true": [
+        "whose",
+        "hand"
+      ],
+      "true_grascii": [
+        "'US",
+        "'ND"
+      ],
+      "top1_grascii": [
+        "'U",
+        "'NT"
+      ],
+      "dictionary_grascii": [
+        "'U",
+        "'ND"
+      ],
+      "ngram_english": [
+        "you",
+        "hand"
+      ]
+    },
+    {
+      "run_id": 103,
+      "true": [
+        "warm",
+        "reception"
+      ],
+      "true_grascii": [
+        "UOM",
+        "RSEP"
+      ],
+      "top1_grascii": [
+        "UOM",
+        "RSEP"
+      ],
+      "dictionary_grascii": [
+        "UOM",
+        "RSEP"
+      ],
+      "ngram_english": [
+        "time",
+        "response"
+      ]
+    },
+    {
+      "run_id": 104,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 105,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 106,
+      "true": [
+        "get",
+        "however"
+      ],
+      "true_grascii": [
+        "GET",
+        "AUV"
+      ],
+      "top1_grascii": [
+        "GET'",
+        "A|UF"
+      ],
+      "dictionary_grascii": [
+        "GET",
+        "EUF"
+      ],
+      "ngram_english": [
+        "get",
+        "out"
+      ]
+    },
+    {
+      "run_id": 107,
+      "true": [
+        "were",
+        "loath"
+      ],
+      "true_grascii": [
+        "ER",
+        "LOTH"
+      ],
+      "top1_grascii": [
+        "EL",
+        "LONT"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "LOT"
+      ],
+      "ngram_english": [
+        "he",
+        "little"
+      ]
+    },
+    {
+      "run_id": 108,
+      "true": [
+        "hand",
+        "were"
+      ],
+      "true_grascii": [
+        "'ND",
+        "ER"
+      ],
+      "top1_grascii": [
+        "'NT",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "'ND",
+        "EL"
+      ],
+      "ngram_english": [
+        "hand",
+        "he"
+      ]
+    },
+    {
+      "run_id": 109,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 110,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 111,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 112,
+      "true": [
+        "play",
+        "there"
+      ],
+      "true_grascii": [
+        "PLA",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "PLLA",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "PLA",
+        "TH"
+      ],
+      "ngram_english": [
+        "place",
+        "the"
+      ]
+    },
+    {
+      "run_id": 113,
+      "true": [
+        "volcano",
+        "whose"
+      ],
+      "true_grascii": [
+        "VOLKNO",
+        "'US"
+      ],
+      "top1_grascii": [
+        "VOLKNO",
+        "'U"
+      ],
+      "dictionary_grascii": [
+        "VOLKNO",
+        "'U"
+      ],
+      "ngram_english": [
+        "volcano",
+        "you"
+      ]
+    },
+    {
+      "run_id": 114,
+      "true": [
+        "do",
+        "care"
+      ],
+      "true_grascii": [
+        "DU",
+        "KA"
+      ],
+      "top1_grascii": [
+        "DU",
+        "KI"
+      ],
+      "dictionary_grascii": [
+        "DU",
+        "KI"
+      ],
+      "ngram_english": [
+        "to",
+        "can"
+      ]
+    },
+    {
+      "run_id": 115,
+      "true": [
+        "into",
+        "unity"
+      ],
+      "true_grascii": [
+        "NTU",
+        "EU^NT"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "EU^NT"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "EU^NT"
+      ],
+      "ngram_english": [
+        "do",
+        "unity"
+      ]
+    },
+    {
+      "run_id": 116,
+      "true": [
+        "world",
+        "situation"
+      ],
+      "true_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "top1_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "SETSH"
+      ],
+      "ngram_english": [
+        "to",
+        "situation"
+      ]
+    },
+    {
+      "run_id": 117,
+      "true": [
+        "into",
+        "one"
+      ],
+      "true_grascii": [
+        "NTU",
+        "UN"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "UN"
+      ],
+      "ngram_english": [
+        "do",
+        "you"
+      ]
+    },
+    {
+      "run_id": 118,
+      "true": [
+        "there",
+        "were",
+        "very"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER",
+        "VE"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL",
+        "VE"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL",
+        "VE"
+      ],
+      "ngram_english": [
+        "the",
+        "he",
+        "he"
+      ]
+    },
+    {
+      "run_id": 119,
+      "true": [
+        "spiral",
+        "history"
+      ],
+      "true_grascii": [
+        "SPIRL",
+        "'ESTRE"
+      ],
+      "top1_grascii": [
+        "SPIRL",
+        "'ESTRE"
+      ],
+      "dictionary_grascii": [
+        "SPIRL",
+        "'ESTRE"
+      ],
+      "ngram_english": [
+        "spirit",
+        "history"
+      ]
+    },
+    {
+      "run_id": 120,
+      "true": [
+        "however",
+        "there"
+      ],
+      "true_grascii": [
+        "AUV",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "TH"
+      ],
+      "ngram_english": [
+        "out",
+        "the"
+      ]
+    },
+    {
+      "run_id": 121,
+      "true": [
+        "one",
+        "another"
+      ],
+      "true_grascii": [
+        "UN",
+        "NUTH"
+      ],
+      "top1_grascii": [
+        "UN",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "you",
+        "stand"
+      ]
+    },
+    {
+      "run_id": 122,
+      "true": [
+        "do",
+        "get"
+      ],
+      "true_grascii": [
+        "DU",
+        "GET"
+      ],
+      "top1_grascii": [
+        "DU",
+        "GET'"
+      ],
+      "dictionary_grascii": [
+        "DU",
+        "GET"
+      ],
+      "ngram_english": [
+        "to",
+        "get"
+      ]
+    },
+    {
+      "run_id": 123,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 124,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 125,
+      "true": [
+        "world",
+        "into"
+      ],
+      "true_grascii": [
+        "UU",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "UU",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "NDU"
+      ],
+      "ngram_english": [
+        "to",
+        "do"
+      ]
+    },
+    {
+      "run_id": 126,
+      "true": [
+        "whole",
+        "world"
+      ],
+      "true_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "ngram_english": [
+        "home",
+        "to"
+      ]
+    },
+    {
+      "run_id": 127,
+      "true": [
+        "another",
+        "psalm"
+      ],
+      "true_grascii": [
+        "NUTH",
+        "SAM"
+      ],
+      "top1_grascii": [
+        "UTN",
+        "SEM"
+      ],
+      "dictionary_grascii": [
+        "MUTN",
+        "SEM"
+      ],
+      "ngram_english": [
+        "stand",
+        "soon"
+      ]
+    },
+    {
+      "run_id": 128,
+      "true": [
+        "tendencies",
+        "seem"
+      ],
+      "true_grascii": [
+        "TNDNSES",
+        "SEM"
+      ],
+      "top1_grascii": [
+        "TNTNSE",
+        "SAM"
+      ],
+      "dictionary_grascii": [
+        "TNDNSE",
+        "SAM"
+      ],
+      "ngram_english": [
+        "tendency",
+        "from"
+      ]
+    },
+    {
+      "run_id": 129,
+      "true": [
+        "one",
+        "another"
+      ],
+      "true_grascii": [
+        "UN",
+        "NUTH"
+      ],
+      "top1_grascii": [
+        "UN",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "you",
+        "stand"
+      ]
+    },
+    {
+      "run_id": 130,
+      "true": [
+        "reception",
+        "into"
+      ],
+      "true_grascii": [
+        "RSEP",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "RSEP",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "RSEP",
+        "NDU"
+      ],
+      "ngram_english": [
+        "response",
+        "do"
+      ]
+    },
+    {
+      "run_id": 131,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 132,
+      "true": [
+        "only",
+        "permit"
+      ],
+      "true_grascii": [
+        "ONE",
+        "PRMET"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "PRMET"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "PRMET"
+      ],
+      "ngram_english": [
+        "may",
+        "permit"
+      ]
+    },
+    {
+      "run_id": 133,
+      "true": [
+        "result",
+        "however"
+      ],
+      "true_grascii": [
+        "RSU",
+        "AUV"
+      ],
+      "top1_grascii": [
+        "RSU",
+        "A|UF"
+      ],
+      "dictionary_grascii": [
+        "RSU",
+        "EUF"
+      ],
+      "ngram_english": [
+        "result",
+        "out"
+      ]
+    },
+    {
+      "run_id": 134,
+      "true": [
+        "whole",
+        "state"
+      ],
+      "true_grascii": [
+        "'OL",
+        "ST"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "ST"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "ST"
+      ],
+      "ngram_english": [
+        "home",
+        "state"
+      ]
+    },
+    {
+      "run_id": 135,
+      "true": [
+        "america",
+        "america"
+      ],
+      "true_grascii": [
+        "AM",
+        "AM"
+      ],
+      "top1_grascii": [
+        "AM^",
+        "AM^"
+      ],
+      "dictionary_grascii": [
+        "AMT",
+        "AMT"
+      ],
+      "ngram_english": [
+        "america",
+        "america"
+      ]
+    },
+    {
+      "run_id": 136,
+      "true": [
+        "america",
+        "america"
+      ],
+      "true_grascii": [
+        "AM",
+        "AM"
+      ],
+      "top1_grascii": [
+        "AM^",
+        "AM^"
+      ],
+      "dictionary_grascii": [
+        "AMT",
+        "AMT"
+      ],
+      "ngram_english": [
+        "america",
+        "america"
+      ]
+    },
+    {
+      "run_id": 137,
+      "true": [
+        "positive",
+        "handicap"
+      ],
+      "true_grascii": [
+        "POSTV",
+        "'NDEKAP"
+      ],
+      "top1_grascii": [
+        "POSTVN",
+        "'NDEKAP"
+      ],
+      "dictionary_grascii": [
+        "POSTVN",
+        "'NDEKAP"
+      ],
+      "ngram_english": [
+        "positive",
+        "handicap"
+      ]
+    },
+    {
+      "run_id": 138,
+      "true": [
+        "mass",
+        "do"
+      ],
+      "true_grascii": [
+        "MAS",
+        "DU"
+      ],
+      "top1_grascii": [
+        "MAS",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "MAS",
+        "DU"
+      ],
+      "ngram_english": [
+        "may",
+        "to"
+      ]
+    },
+    {
+      "run_id": 139,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 140,
+      "true": [
+        "whole",
+        "world"
+      ],
+      "true_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "UU"
+      ],
+      "ngram_english": [
+        "home",
+        "to"
+      ]
+    },
+    {
+      "run_id": 141,
+      "true": [
+        "week",
+        "however"
+      ],
+      "true_grascii": [
+        "EK",
+        "AUV"
+      ],
+      "top1_grascii": [
+        "AG",
+        "A|UF"
+      ],
+      "dictionary_grascii": [
+        "AK",
+        "EUF"
+      ],
+      "ngram_english": [
+        "good",
+        "out"
+      ]
+    },
+    {
+      "run_id": 142,
+      "true": [
+        "gain",
+        "support"
+      ],
+      "true_grascii": [
+        "GAN",
+        "S)^T"
+      ],
+      "top1_grascii": [
+        "GAN",
+        "S)^T"
+      ],
+      "dictionary_grascii": [
+        "GAN",
+        "S)^T"
+      ],
+      "ngram_english": [
+        "gone",
+        "support"
+      ]
+    },
+    {
+      "run_id": 143,
+      "true": [
+        "lighter",
+        "weight"
+      ],
+      "true_grascii": [
+        "LI^R",
+        "UAT"
+      ],
+      "top1_grascii": [
+        "LI^L",
+        "KAT"
+      ],
+      "dictionary_grascii": [
+        "LI^R",
+        "KAT"
+      ],
+      "ngram_english": [
+        "lighter",
+        "quite"
+      ]
+    },
+    {
+      "run_id": 144,
+      "true": [
+        "were",
+        "healthy"
+      ],
+      "true_grascii": [
+        "ER",
+        "'ELTHE"
+      ],
+      "top1_grascii": [
+        "EL",
+        "'ELTE~"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "'ELTHE"
+      ],
+      "ngram_english": [
+        "he",
+        "health"
+      ]
+    },
+    {
+      "run_id": 145,
+      "true": [
+        "every",
+        "month"
+      ],
+      "true_grascii": [
+        "EV",
+        "MNTH"
+      ],
+      "top1_grascii": [
+        "EV",
+        "MNTHN"
+      ],
+      "dictionary_grascii": [
+        "EV",
+        "MNTN"
+      ],
+      "ngram_english": [
+        "of",
+        "month"
+      ]
+    },
+    {
+      "run_id": 146,
+      "true": [
+        "one",
+        "cannot"
+      ],
+      "true_grascii": [
+        "UN",
+        "KN"
+      ],
+      "top1_grascii": [
+        "UN",
+        "GN"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "GN"
+      ],
+      "ngram_english": [
+        "you",
+        "not"
+      ]
+    },
+    {
+      "run_id": 147,
+      "true": [
+        "were",
+        "put"
+      ],
+      "true_grascii": [
+        "ER",
+        "P"
+      ],
+      "top1_grascii": [
+        "EL",
+        "P"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "P"
+      ],
+      "ngram_english": [
+        "he",
+        "of"
+      ]
+    },
+    {
+      "run_id": 148,
+      "true": [
+        "weight",
+        "ratio"
+      ],
+      "true_grascii": [
+        "UAT",
+        "RASHO"
+      ],
+      "top1_grascii": [
+        "KAT",
+        "RASHO"
+      ],
+      "dictionary_grascii": [
+        "KAT",
+        "RASHO"
+      ],
+      "ngram_english": [
+        "quite",
+        "ratio"
+      ]
+    },
+    {
+      "run_id": 149,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 150,
+      "true": [
+        "only",
+        "were"
+      ],
+      "true_grascii": [
+        "ONE",
+        "ER"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "EL"
+      ],
+      "ngram_english": [
+        "may",
+        "he"
+      ]
+    },
+    {
+      "run_id": 151,
+      "true": [
+        "come",
+        "one",
+        "come"
+      ],
+      "true_grascii": [
+        "KM",
+        "UN",
+        "KM"
+      ],
+      "top1_grascii": [
+        "KM",
+        "UN",
+        "KM"
+      ],
+      "dictionary_grascii": [
+        "KM",
+        "UN",
+        "KM"
+      ],
+      "ngram_english": [
+        "more",
+        "you",
+        "more"
+      ]
+    },
+    {
+      "run_id": 152,
+      "true": [
+        "however",
+        "there"
+      ],
+      "true_grascii": [
+        "AUV",
+        "TH)"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "TH"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "TH"
+      ],
+      "ngram_english": [
+        "out",
+        "the"
+      ]
+    },
+    {
+      "run_id": 153,
+      "true": [
+        "one",
+        "state"
+      ],
+      "true_grascii": [
+        "UN",
+        "ST"
+      ],
+      "top1_grascii": [
+        "UN",
+        "ST"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "ST"
+      ],
+      "ngram_english": [
+        "you",
+        "state"
+      ]
+    },
+    {
+      "run_id": 154,
+      "true": [
+        "nearly",
+        "always"
+      ],
+      "true_grascii": [
+        "NEE",
+        "OLS"
+      ],
+      "top1_grascii": [
+        "MATE",
+        "OLS"
+      ],
+      "dictionary_grascii": [
+        "MAT",
+        "OLS"
+      ],
+      "ngram_english": [
+        "might",
+        "always"
+      ]
+    },
+    {
+      "run_id": 155,
+      "true": [
+        "herself",
+        "october"
+      ],
+      "true_grascii": [
+        "'ERS",
+        "OKT"
+      ],
+      "top1_grascii": [
+        "'ERS",
+        "OKT^E"
+      ],
+      "dictionary_grascii": [
+        "'ERS",
+        "OKT"
+      ],
+      "ngram_english": [
+        "here",
+        "county"
+      ]
+    },
+    {
+      "run_id": 156,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 157,
+      "true": [
+        "were",
+        "one"
+      ],
+      "true_grascii": [
+        "ER",
+        "UN"
+      ],
+      "top1_grascii": [
+        "EL",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "UN"
+      ],
+      "ngram_english": [
+        "he",
+        "you"
+      ]
+    },
+    {
+      "run_id": 158,
+      "true": [
+        "crow",
+        "into"
+      ],
+      "true_grascii": [
+        "KRO",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "GLO",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "GLO",
+        "NDU"
+      ],
+      "ngram_english": [
+        "law",
+        "do"
+      ]
+    },
+    {
+      "run_id": 159,
+      "true": [
+        "table",
+        "ready"
+      ],
+      "true_grascii": [
+        "TAB",
+        "REDE"
+      ],
+      "top1_grascii": [
+        "TAB",
+        "REDE"
+      ],
+      "dictionary_grascii": [
+        "TAB",
+        "REDE"
+      ],
+      "ngram_english": [
+        "table",
+        "red"
+      ]
+    },
+    {
+      "run_id": 160,
+      "true": [
+        "every",
+        "one"
+      ],
+      "true_grascii": [
+        "EV",
+        "UN"
+      ],
+      "top1_grascii": [
+        "EV",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "EV",
+        "UN"
+      ],
+      "ngram_english": [
+        "of",
+        "you"
+      ]
+    },
+    {
+      "run_id": 161,
+      "true": [
+        "were",
+        "renowned"
+      ],
+      "true_grascii": [
+        "ER",
+        "RENND"
+      ],
+      "top1_grascii": [
+        "EL",
+        "RENNT"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "RENND"
+      ],
+      "ngram_english": [
+        "he",
+        "renowned"
+      ]
+    },
+    {
+      "run_id": 162,
+      "true": [
+        "world",
+        "renowned",
+        "mile"
+      ],
+      "true_grascii": [
+        "UU",
+        "RENND",
+        "MI~"
+      ],
+      "top1_grascii": [
+        "UU",
+        "RENNT",
+        "MI~"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "RENND",
+        "MI~"
+      ],
+      "ngram_english": [
+        "to",
+        "renowned",
+        "may"
+      ]
+    },
+    {
+      "run_id": 163,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 164,
+      "true": [
+        "into",
+        "another"
+      ],
+      "true_grascii": [
+        "NTU",
+        "NUTH"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "UTN"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "MUTN"
+      ],
+      "ngram_english": [
+        "do",
+        "stand"
+      ]
+    },
+    {
+      "run_id": 165,
+      "true": [
+        "meat",
+        "come"
+      ],
+      "true_grascii": [
+        "MET",
+        "KM"
+      ],
+      "top1_grascii": [
+        "MAT",
+        "KM"
+      ],
+      "dictionary_grascii": [
+        "MAT",
+        "KM"
+      ],
+      "ngram_english": [
+        "made",
+        "more"
+      ]
+    },
+    {
+      "run_id": 166,
+      "true": [
+        "one",
+        "design"
+      ],
+      "true_grascii": [
+        "UN",
+        "DSIN"
+      ],
+      "top1_grascii": [
+        "UN",
+        "DSIN"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "DSIN"
+      ],
+      "ngram_english": [
+        "you",
+        "design"
+      ]
+    },
+    {
+      "run_id": 167,
+      "true": [
+        "jars",
+        "brush"
+      ],
+      "true_grascii": [
+        "JA~|",
+        "BRSH"
+      ],
+      "top1_grascii": [
+        "CHE~",
+        "BRSH"
+      ],
+      "dictionary_grascii": [
+        "CHE~",
+        "BRSH"
+      ],
+      "ngram_english": [
+        "she",
+        "brush"
+      ]
+    },
+    {
+      "run_id": 168,
+      "true": [
+        "there",
+        "might"
+      ],
+      "true_grascii": [
+        "TH)",
+        "MAT"
+      ],
+      "top1_grascii": [
+        "TH",
+        "MESH"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "MESH"
+      ],
+      "ngram_english": [
+        "the",
+        "month"
+      ]
+    },
+    {
+      "run_id": 169,
+      "true": [
+        "world",
+        "citizen"
+      ],
+      "true_grascii": [
+        "UU",
+        "SETZ"
+      ],
+      "top1_grascii": [
+        "UU",
+        "SETS"
+      ],
+      "dictionary_grascii": [
+        "UU",
+        "SES"
+      ],
+      "ngram_english": [
+        "to",
+        "situation"
+      ]
+    },
+    {
+      "run_id": 170,
+      "true": [
+        "design",
+        "along"
+      ],
+      "true_grascii": [
+        "DSIN",
+        "ALNG"
+      ],
+      "top1_grascii": [
+        "DSIN",
+        "ALNG"
+      ],
+      "dictionary_grascii": [
+        "DSIN",
+        "ALNG"
+      ],
+      "ngram_english": [
+        "design",
+        "along"
+      ]
+    },
+    {
+      "run_id": 171,
+      "true": [
+        "weight",
+        "hand"
+      ],
+      "true_grascii": [
+        "UAT",
+        "'ND"
+      ],
+      "top1_grascii": [
+        "KAT",
+        "'NT"
+      ],
+      "dictionary_grascii": [
+        "KAT",
+        "'ND"
+      ],
+      "ngram_english": [
+        "quite",
+        "hand"
+      ]
+    },
+    {
+      "run_id": 172,
+      "true": [
+        "wash",
+        "brush"
+      ],
+      "true_grascii": [
+        "UOSH",
+        "BRSH"
+      ],
+      "top1_grascii": [
+        "UOCH",
+        "BRSH"
+      ],
+      "dictionary_grascii": [
+        "UOCH",
+        "BRSH"
+      ],
+      "ngram_english": [
+        "watch",
+        "brush"
+      ]
+    },
+    {
+      "run_id": 173,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 174,
+      "true": [
+        "do",
+        "one"
+      ],
+      "true_grascii": [
+        "DU",
+        "UN"
+      ],
+      "top1_grascii": [
+        "DU",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "DU",
+        "UN"
+      ],
+      "ngram_english": [
+        "to",
+        "you"
+      ]
+    },
+    {
+      "run_id": 175,
+      "true": [
+        "medical",
+        "discovery"
+      ],
+      "true_grascii": [
+        "MED^K",
+        "DSKVE"
+      ],
+      "top1_grascii": [
+        "MED^K",
+        "DSFE"
+      ],
+      "dictionary_grascii": [
+        "MED^K",
+        "DSKVE"
+      ],
+      "ngram_english": [
+        "medical",
+        "discovery"
+      ]
+    },
+    {
+      "run_id": 176,
+      "true": [
+        "every",
+        "book"
+      ],
+      "true_grascii": [
+        "EV",
+        "BK"
+      ],
+      "top1_grascii": [
+        "EV",
+        "BK"
+      ],
+      "dictionary_grascii": [
+        "EV",
+        "BK"
+      ],
+      "ngram_english": [
+        "of",
+        "can"
+      ]
+    },
+    {
+      "run_id": 177,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 178,
+      "true": [
+        "veterinary",
+        "medical"
+      ],
+      "true_grascii": [
+        "VETRENRE",
+        "MED^K"
+      ],
+      "top1_grascii": [
+        "VETRENRE",
+        "MED^K"
+      ],
+      "dictionary_grascii": [
+        "VETRENRE",
+        "MED^K"
+      ],
+      "ngram_english": [
+        "veterinary",
+        "medical"
+      ]
+    },
+    {
+      "run_id": 179,
+      "true": [
+        "bloat",
+        "provide"
+      ],
+      "true_grascii": [
+        "BLOT",
+        "PRVI"
+      ],
+      "top1_grascii": [
+        "BLOT",
+        "PRVES"
+      ],
+      "dictionary_grascii": [
+        "BLOT",
+        "PRVES"
+      ],
+      "ngram_english": [
+        "lot",
+        "provide"
+      ]
+    },
+    {
+      "run_id": 180,
+      "true": [
+        "lot",
+        "bloat"
+      ],
+      "true_grascii": [
+        "LOT",
+        "BLOT"
+      ],
+      "top1_grascii": [
+        "LOT",
+        "BLOT"
+      ],
+      "dictionary_grascii": [
+        "LOT",
+        "BLOT"
+      ],
+      "ngram_english": [
+        "little",
+        "lot"
+      ]
+    },
+    {
+      "run_id": 181,
+      "true": [
+        "whole",
+        "into"
+      ],
+      "true_grascii": [
+        "'OL",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "'OL",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "'OL",
+        "NDU"
+      ],
+      "ngram_english": [
+        "home",
+        "do"
+      ]
+    },
+    {
+      "run_id": 182,
+      "true": [
+        "largely",
+        "into"
+      ],
+      "true_grascii": [
+        "LAJE",
+        "NTU"
+      ],
+      "top1_grascii": [
+        "LEJES",
+        "NDU"
+      ],
+      "dictionary_grascii": [
+        "LAJES",
+        "NDU"
+      ],
+      "ngram_english": [
+        "larger",
+        "do"
+      ]
+    },
+    {
+      "run_id": 183,
+      "true": [
+        "however",
+        "cannot"
+      ],
+      "true_grascii": [
+        "AUV",
+        "KN"
+      ],
+      "top1_grascii": [
+        "A|UF",
+        "GN"
+      ],
+      "dictionary_grascii": [
+        "EUF",
+        "GN"
+      ],
+      "ngram_english": [
+        "out",
+        "not"
+      ]
+    },
+    {
+      "run_id": 184,
+      "true": [
+        "cash",
+        "every"
+      ],
+      "true_grascii": [
+        "KASH",
+        "EV"
+      ],
+      "top1_grascii": [
+        "KASH",
+        "EV"
+      ],
+      "dictionary_grascii": [
+        "KASH",
+        "EV"
+      ],
+      "ngram_english": [
+        "case",
+        "of"
+      ]
+    },
+    {
+      "run_id": 185,
+      "true": [
+        "seem",
+        "very"
+      ],
+      "true_grascii": [
+        "SEM",
+        "VE"
+      ],
+      "top1_grascii": [
+        "SAM",
+        "VE"
+      ],
+      "dictionary_grascii": [
+        "SAM",
+        "VE"
+      ],
+      "ngram_english": [
+        "from",
+        "he"
+      ]
+    },
+    {
+      "run_id": 186,
+      "true": [
+        "couple",
+        "do"
+      ],
+      "true_grascii": [
+        "KUP",
+        "DU"
+      ],
+      "top1_grascii": [
+        "KUP",
+        "DU"
+      ],
+      "dictionary_grascii": [
+        "KUP",
+        "DU"
+      ],
+      "ngram_english": [
+        "couple",
+        "to"
+      ]
+    },
+    {
+      "run_id": 187,
+      "true": [
+        "vertical",
+        "classification"
+      ],
+      "true_grascii": [
+        "VE~T^K",
+        "KLAS^F"
+      ],
+      "top1_grascii": [
+        "VE~^K",
+        "KLES^F"
+      ],
+      "dictionary_grascii": [
+        "VE~T^K",
+        "KLAS^F"
+      ],
+      "ngram_english": [
+        "vehicle",
+        "classification"
+      ]
+    },
+    {
+      "run_id": 188,
+      "true": [
+        "into",
+        "executive"
+      ],
+      "true_grascii": [
+        "NTU",
+        "ESKV"
+      ],
+      "top1_grascii": [
+        "NDU",
+        "ESKV"
+      ],
+      "dictionary_grascii": [
+        "NDU",
+        "ESKV"
+      ],
+      "ngram_english": [
+        "do",
+        "active"
+      ]
+    },
+    {
+      "run_id": 189,
+      "true": [
+        "state",
+        "get"
+      ],
+      "true_grascii": [
+        "ST",
+        "GET"
+      ],
+      "top1_grascii": [
+        "ST",
+        "GET'"
+      ],
+      "dictionary_grascii": [
+        "ST",
+        "GET"
+      ],
+      "ngram_english": [
+        "state",
+        "get"
+      ]
+    },
+    {
+      "run_id": 190,
+      "true": [
+        "very",
+        "easy"
+      ],
+      "true_grascii": [
+        "VE",
+        "ESE"
+      ],
+      "top1_grascii": [
+        "VE",
+        "ESE"
+      ],
+      "dictionary_grascii": [
+        "VE",
+        "ESE"
+      ],
+      "ngram_english": [
+        "he",
+        "easy"
+      ]
+    },
+    {
+      "run_id": 191,
+      "true": [
+        "lighter",
+        "weight"
+      ],
+      "true_grascii": [
+        "LI^R",
+        "UAT"
+      ],
+      "top1_grascii": [
+        "LI^L",
+        "KAT"
+      ],
+      "dictionary_grascii": [
+        "LI^R",
+        "KAT"
+      ],
+      "ngram_english": [
+        "lighter",
+        "quite"
+      ]
+    },
+    {
+      "run_id": 192,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 193,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 194,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 195,
+      "true": [
+        "only",
+        "one"
+      ],
+      "true_grascii": [
+        "ONE",
+        "UN"
+      ],
+      "top1_grascii": [
+        "OMA",
+        "UN"
+      ],
+      "dictionary_grascii": [
+        "MA",
+        "UN"
+      ],
+      "ngram_english": [
+        "may",
+        "you"
+      ]
+    },
+    {
+      "run_id": 196,
+      "true": [
+        "were",
+        "always"
+      ],
+      "true_grascii": [
+        "ER",
+        "OLS"
+      ],
+      "top1_grascii": [
+        "EL",
+        "OLS"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "OLS"
+      ],
+      "ngram_english": [
+        "he",
+        "always"
+      ]
+    },
+    {
+      "run_id": 197,
+      "true": [
+        "there",
+        "were"
+      ],
+      "true_grascii": [
+        "TH)",
+        "ER"
+      ],
+      "top1_grascii": [
+        "TH",
+        "EL"
+      ],
+      "dictionary_grascii": [
+        "TH",
+        "EL"
+      ],
+      "ngram_english": [
+        "the",
+        "he"
+      ]
+    },
+    {
+      "run_id": 198,
+      "true": [
+        "sauce",
+        "meat"
+      ],
+      "true_grascii": [
+        "SOS",
+        "MET"
+      ],
+      "top1_grascii": [
+        "SOS",
+        "MAT"
+      ],
+      "dictionary_grascii": [
+        "SOS",
+        "MAT"
+      ],
+      "ngram_english": [
+        "source",
+        "made"
+      ]
+    },
+    {
+      "run_id": 199,
+      "true": [
+        "were",
+        "ready"
+      ],
+      "true_grascii": [
+        "ER",
+        "REDE"
+      ],
+      "top1_grascii": [
+        "EL",
+        "REDE"
+      ],
+      "dictionary_grascii": [
+        "EL",
+        "REDE"
+      ],
+      "ngram_english": [
+        "he",
+        "red"
+      ]
+    },
+    {
+      "run_id": 200,
+      "true": [
+        "one",
+        "historical"
+      ],
+      "true_grascii": [
+        "UN",
+        "'ESTOR^K"
+      ],
+      "top1_grascii": [
+        "UN",
+        "'ESTOR^K"
+      ],
+      "dictionary_grascii": [
+        "UN",
+        "'ESTOR^K"
+      ],
+      "ngram_english": [
+        "you",
+        "historical"
+      ]
+    }
+  ]
+}

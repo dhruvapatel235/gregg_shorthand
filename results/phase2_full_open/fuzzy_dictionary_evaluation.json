@@ -1,0 +1,587 @@
+{
+  "test_samples": 1544,
+  "checkpoint": "outputs/phase2_oversample/recognizer.pt",
+  "dictionary_codes": 14932,
+  "baseline_grascii_exact_accuracy": 0.43458549222797926,
+  "fuzzy_corrected_grascii_exact_accuracy": 0.5764248704663213,
+  "original_dictionary_exact_coverage": 0.508419689119171,
+  "true_english_in_nearest_code_candidates": 0.7564766839378239,
+  "unique_candidate_english_accuracy": 0.4721502590673575,
+  "prediction_changed_count": 759,
+  "note": "Exploratory nearest-edit-distance baseline. It does not use visual probabilities or sentence context. Ties are preserved for candidate recall, while code accuracy uses alphabetical tie-breaking. Candidate recall is not deployable English accuracy.",
+  "examples": [
+    {
+      "true_code": "ABOREJ",
+      "predicted_code": "ABREJ",
+      "corrected_code": "ABREJ",
+      "true_english": "aboriginal",
+      "nearest_codes": [
+        "ABREJ"
+      ],
+      "english_candidates": [
+        "abridge"
+      ]
+    },
+    {
+      "true_code": "AB^US",
+      "predicted_code": "AB^S)",
+      "corrected_code": "OB^S)",
+      "true_english": "abstruse",
+      "nearest_codes": [
+        "OB^S)",
+        "PB^S)"
+      ],
+      "english_candidates": [
+        "obesity",
+        "publicity"
+      ]
+    },
+    {
+      "true_code": "ABEU^V",
+      "predicted_code": "A~CK^F",
+      "corrected_code": "ADN^F",
+      "true_english": "abusive",
+      "nearest_codes": [
+        "ADN^F",
+        "AK^A",
+        "AK^V",
+        "ALAK^R",
+        "AMEK^B",
+        "AMP^F",
+        "ANRK^K",
+        "A~CH",
+        "A~CHA_",
+        "A~MF",
+        "A~TEK^U",
+        "A~TF",
+        "A~T^K",
+        "A~|DF",
+        "SANK^F",
+        "ZENK^F"
+      ],
+      "english_candidates": [
+        "activity",
+        "alacrity",
+        "amicability",
+        "amplification",
+        "anarchical",
+        "aquatic",
+        "arch",
+        "archway",
+        "armful",
+        "artful",
+        "article",
+        "articulate",
+        "identification",
+        "sanctification",
+        "yardful",
+        "zincification"
+      ]
+    },
+    {
+      "true_code": "AKS(B",
+      "predicted_code": "AKSB",
+      "corrected_code": "AKS",
+      "true_english": "acceptable",
+      "nearest_codes": [
+        "AKS",
+        "AKS(",
+        "AKS(B",
+        "AKSH",
+        "AKSHB",
+        "AKSL",
+        "AKSS",
+        "AKTB",
+        "ANSB",
+        "NAKSB"
+      ],
+      "english_candidates": [
+        "accept",
+        "acceptable",
+        "acceptance",
+        "access",
+        "accessible",
+        "accident",
+        "accountable",
+        "action",
+        "actionable",
+        "answerable",
+        "ax",
+        "axis",
+        "axle",
+        "unacceptable"
+      ]
+    },
+    {
+      "true_code": "AKSESH",
+      "predicted_code": "AK^SEIZ",
+      "corrected_code": "AKRSE",
+      "true_english": "accession",
+      "nearest_codes": [
+        "AKRSE",
+        "AKSED",
+        "AKSEL",
+        "AKSEM",
+        "AKSENT",
+        "AKSESH",
+        "AK^ST",
+        "ASIZ",
+        "A^GNIZ",
+        "A^SED",
+        "A^SEDN",
+        "A^SEP",
+        "A^SEPK",
+        "A|^NDIZ",
+        "K^SIN",
+        "LE^SIZ"
+      ],
+      "english_candidates": [
+        "accede",
+        "accelerate",
+        "accent",
+        "accession",
+        "accuracy",
+        "acoustic",
+        "aggrandize",
+        "antagonize",
+        "antecede",
+        "antecedent",
+        "anticipate",
+        "antiseptic",
+        "assize",
+        "axiom",
+        "countersign",
+        "literalize"
+      ]
+    },
+    {
+      "true_code": "ASED^U",
+      "predicted_code": "ASEAD^U",
+      "corrected_code": "ASED^U",
+      "true_english": "acidulate",
+      "nearest_codes": [
+        "ASED^U"
+      ],
+      "english_candidates": [
+        "acidulate"
+      ]
+    },
+    {
+      "true_code": "AKESSH",
+      "predicted_code": "AGSESH",
+      "corrected_code": "AKSESH",
+      "true_english": "acquisition",
+      "nearest_codes": [
+        "AKSESH",
+        "ASESH"
+      ],
+      "english_candidates": [
+        "accession",
+        "assertion"
+      ]
+    },
+    {
+      "true_code": "AKSHB",
+      "predicted_code": "AKSB",
+      "corrected_code": "AKS",
+      "true_english": "actionable",
+      "nearest_codes": [
+        "AKS",
+        "AKS(",
+        "AKS(B",
+        "AKSH",
+        "AKSHB",
+        "AKSL",
+        "AKSS",
+        "AKTB",
+        "ANSB",
+        "NAKSB"
+      ],
+      "english_candidates": [
+        "accept",
+        "acceptable",
+        "acceptance",
+        "access",
+        "accessible",
+        "accident",
+        "accountable",
+        "action",
+        "actionable",
+        "answerable",
+        "ax",
+        "axis",
+        "axle",
+        "unacceptable"
+      ]
+    },
+    {
+      "true_code": "AVNTSHUS",
+      "predicted_code": "AVTUS",
+      "corrected_code": "AVUS",
+      "true_english": "adventitious",
+      "nearest_codes": [
+        "AVUS"
+      ],
+      "english_candidates": [
+        "advantageous"
+      ]
+    },
+    {
+      "true_code": "AVNTRUS",
+      "predicted_code": "AFNTRUS",
+      "corrected_code": "AVNTRUS",
+      "true_english": "adventurous",
+      "nearest_codes": [
+        "AVNTRUS"
+      ],
+      "english_candidates": [
+        "adventurous"
+      ]
+    },
+    {
+      "true_code": "AVTM",
+      "predicted_code": "AFTM",
+      "corrected_code": "ABTM",
+      "true_english": "advertisement",
+      "nearest_codes": [
+        "ABTM",
+        "AFEM",
+        "APTM",
+        "ATM",
+        "AVTM",
+        "BFTM",
+        "LAFTM"
+      ],
+      "english_candidates": [
+        "abutment",
+        "advertisement",
+        "affirm",
+        "apartment",
+        "atom",
+        "beforetime",
+        "item",
+        "lifetime"
+      ]
+    },
+    {
+      "true_code": "VIS^B",
+      "predicted_code": "VIRB",
+      "corrected_code": "VARB",
+      "true_english": "advisability",
+      "nearest_codes": [
+        "VARB",
+        "VERB",
+        "VILB"
+      ],
+      "english_candidates": [
+        "variable",
+        "verb",
+        "violable"
+      ]
+    },
+    {
+      "true_code": "VISRE",
+      "predicted_code": "VASRE",
+      "corrected_code": "VAGRE",
+      "true_english": "advisory",
+      "nearest_codes": [
+        "VAGRE",
+        "VARE",
+        "VISRE"
+      ],
+      "english_candidates": [
+        "advisory",
+        "vagary",
+        "vary"
+      ]
+    },
+    {
+      "true_code": "AF^B",
+      "predicted_code": "AVE^B",
+      "corrected_code": "AVERB",
+      "true_english": "affability",
+      "nearest_codes": [
+        "AVERB"
+      ],
+      "english_candidates": [
+        "adverb"
+      ]
+    },
+    {
+      "true_code": "ARE|",
+      "predicted_code": "ARI",
+      "corrected_code": "ARI",
+      "true_english": "airily",
+      "nearest_codes": [
+        "ARI"
+      ],
+      "english_candidates": [
+        "arrival",
+        "arrive",
+        "awry"
+      ]
+    },
+    {
+      "true_code": "ALA",
+      "predicted_code": "ALI",
+      "corrected_code": "ALI",
+      "true_english": "alike",
+      "nearest_codes": [
+        "ALI"
+      ],
+      "english_candidates": [
+        "ally"
+      ]
+    },
+    {
+      "true_code": "ALUD",
+      "predicted_code": "ALMUD",
+      "corrected_code": "ALUD",
+      "true_english": "allude",
+      "nearest_codes": [
+        "ALUD",
+        "TALMUD"
+      ],
+      "english_candidates": [
+        "allude",
+        "talmud"
+      ]
+    },
+    {
+      "true_code": "O(^KASH",
+      "predicted_code": "O^KAT",
+      "corrected_code": "N^KAT",
+      "true_english": "altercation",
+      "nearest_codes": [
+        "N^KAT",
+        "O(^KAT"
+      ],
+      "english_candidates": [
+        "altercate",
+        "intricate"
+      ]
+    },
+    {
+      "true_code": "ALTETUDN",
+      "predicted_code": "ALTNETUG",
+      "corrected_code": "ALTET",
+      "true_english": "altitudinal",
+      "nearest_codes": [
+        "ALTET",
+        "ALTETUDN",
+        "ATNEUT",
+        "PLENETU"
+      ],
+      "english_candidates": [
+        "altitude",
+        "altitudinal",
+        "attenuate",
+        "plenitude"
+      ]
+    },
+    {
+      "true_code": "OLS",
+      "predicted_code": "OLES",
+      "corrected_code": "BLES",
+      "true_english": "always",
+      "nearest_codes": [
+        "BLES",
+        "FLES",
+        "LES",
+        "MOLES",
+        "OLEG",
+        "OLEV",
+        "OLS",
+        "ONES",
+        "PLES",
+        "POLES"
+      ],
+      "english_candidates": [
+        "always",
+        "bless",
+        "bliss",
+        "fleece",
+        "honest",
+        "lease",
+        "less",
+        "molest",
+        "oligarchy",
+        "olive",
+        "pleasant",
+        "police"
+      ]
+    },
+    {
+      "true_code": "AMBG",
+      "predicted_code": "ANBG",
+      "corrected_code": "AMBG",
+      "true_english": "ambiguous",
+      "nearest_codes": [
+        "AMBG",
+        "AN^G"
+      ],
+      "english_candidates": [
+        "ambiguous",
+        "anagram"
+      ]
+    },
+    {
+      "true_code": "AMB",
+      "predicted_code": "AMTB",
+      "corrected_code": "AKTB",
+      "true_english": "ambition",
+      "nearest_codes": [
+        "AKTB",
+        "AMB",
+        "AMEB",
+        "AMNB",
+        "AMT",
+        "AM^B",
+        "TMTB"
+      ],
+      "english_candidates": [
+        "accountable",
+        "ambition",
+        "ambitious",
+        "amenable",
+        "amiability",
+        "amiable",
+        "amount",
+        "time-table"
+      ]
+    },
+    {
+      "true_code": "AMBROSHA",
+      "predicted_code": "AMPRSHE|",
+      "corrected_code": "AMPUSH",
+      "true_english": "ambrosia",
+      "nearest_codes": [
+        "AMPUSH",
+        "ASPRSH",
+        "MARSHEN",
+        "MPARSHA|",
+        "MPRSEP"
+      ],
+      "english_candidates": [
+        "amputation",
+        "aspersion",
+        "impartially",
+        "imperceptible",
+        "marshiness"
+      ]
+    },
+    {
+      "true_code": "AM",
+      "predicted_code": "AM^",
+      "corrected_code": "AM",
+      "true_english": "america",
+      "nearest_codes": [
+        "AM",
+        "AMB",
+        "AML",
+        "AMN",
+        "AMP",
+        "AMT",
+        "AM^B",
+        "A|M^",
+        "A|^"
+      ],
+      "english_candidates": [
+        "agree",
+        "agreement",
+        "aimless",
+        "ambition",
+        "ambitious",
+        "america",
+        "american",
+        "amiability",
+        "amount",
+        "ample"
+      ]
+    },
+    {
+      "true_code": "AMFTHET",
+      "predicted_code": "AMFNET",
+      "corrected_code": "AMET",
+      "true_english": "amphitheater",
+      "nearest_codes": [
+        "AMET",
+        "AMFTHET",
+        "AMNES",
+        "AMULET",
+        "AM^NT",
+        "AUFET",
+        "MNET"
+      ],
+      "english_candidates": [
+        "administer",
+        "admit",
+        "amenity",
+        "amphitheater",
+        "amulet",
+        "minute",
+        "outfit"
+      ]
+    },
+    {
+      "true_code": "AMPLETU",
+      "predicted_code": "AMPLENU",
+      "corrected_code": "AMPLETU",
+      "true_english": "amplitude",
+      "nearest_codes": [
+        "AMPLETU"
+      ],
+      "english_candidates": [
+        "amplitude"
+      ]
+    },
+    {
+      "true_code": "AMULET",
+      "predicted_code": "AMUSLET",
+      "corrected_code": "AMULET",
+      "true_english": "amulet",
+      "nearest_codes": [
+        "AMULET"
+      ],
+      "english_candidates": [
+        "amulet"
+      ]
+    },
+    {
+      "true_code": "ANEMA&'",
+      "predicted_code": "ANEMI&'",
+      "corrected_code": "ANEMA&'",
+      "true_english": "anaemia",
+      "nearest_codes": [
+        "ANEMA&'"
+      ],
+      "english_candidates": [
+        "anaemia"
+      ]
+    },
+    {
+      "true_code": "ANESTH^A",
+      "predicted_code": "ANEST^A",
+      "corrected_code": "ANESTH^A",
+      "true_english": "anaesthetic",
+      "nearest_codes": [
+        "ANESTH^A"
+      ],
+      "english_candidates": [
+        "anaesthetic"
+      ]
+    },
+    {
+      "true_code": "ANATME",
+      "predicted_code": "ANETME",
+      "corrected_code": "ANATME",
+      "true_english": "anatomy",
+      "nearest_codes": [
+        "ANATME"
+      ],
+      "english_candidates": [
+        "anatomy"
+      ]
+    }
+  ]
+}
